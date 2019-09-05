@@ -41,20 +41,20 @@ Cuis assumes very little on the underlying platform, and this lets it run out-of
  		<environment insert="." name="PATH"/>
  	</requires>
 
-    <implementation arch="*-src" id="sha1new=330b8cfa996ad1f8d38e413fe8031f00c22fb706" released="2019-09-05" version="5.0-3849">
+    <implementation arch="*-*" id="sha1new=330b8cfa996ad1f8d38e413fe8031f00c22fb706" released="2019-09-05" version="5.0-3849">
     	<manifest-digest sha256new="2NEFUXTOKDGAQ4OKBKHWKXB6HI76DPJP4QVP5GV3LIAPJO5M4AOQ"/>
     	<archive extract="Cuis-Smalltalk-Dev-5.0-3849" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-3849.zip" size="60648659"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1xFNQACgkQpIiFFUIf/SvOfQv/dW1w
-3o3Bch/kabS8UP726TvKPWLead7EHwXgIykRtndr2vfcQkJmy5Zg3MXRL30+y3PihyYhFTJUOxTr
-0OSLfwiijpFb9jFB98cOrITUPcjALoruLtDm33AOidwjUExCAtObV23pjsqqxQyvFdOGJq8r2ZhB
-QxdloS8DLQS/z9eocAPhzjghUB1myr0QjXyskml2x8OC9dXdFnNvBKu24oaUgcNR8jV6Bn+YA5DY
-fGMmTumX+o8ZUUPfTQE10ertBp93iEgbHA/a1bZhwO7t9MBrkWGBsZVRpOqng0pudWPh8rf2rTqj
-Af5zjZQr8yqdR3qQM6x0VMUm5uHrEBaJWZqFgN4np3OqFR8mqHwwG19VvZhjRLhWgLR8RG/kMMZ7
-FNSU+Q52Mj7IdK6PZC2r647rQAsnt7I6z+2TgmYrXNQ30b4gZjoy49ygEnm5WHSMnx6H27mGmMBT
-gY7veknhhnvTlWHaKTBokc1HwFk8HGJ7rU6qM1awFDyPHDvJ5pJP
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1xFboACgkQpIiFFUIf/Ssc7gwAlL+g
+44+4MMLgBfI2BB0sc29zspl1eT7WRFksimu7NdwEYuTZm8h6xATmCJi4+T+uOpJcONC6chvrcUPP
+lGXA3UcVZxCy4F4cXCNB7aVP2nbwDrGSKzZZO/TpuQFv1W75dD4TkBmHngAAKz5Qd8deG+Q3nxf8
+roz4Jfkz39sM6CSA6HVbfUG2Go5xq6mzUbdi1FjW/NroRPuilyEarF1xCfT2xbIEe/QhEcLvcHen
+86d+mgBiletjPTuJuYNvqeaWtouooR9KWUwx/XjbO+AICifRTZ2GDScrmDp2IcVa8vkppc6nMgT2
+OY+TOnDOteD80qs6f1cqbV1JPwi2qsv2/aSD4MjjmMLL70wV8m26ENrDuNxb7mX+7eD099ewpfE3
+Sl2zSj29yQ+xwtKbFFRSzgjdZV6Z05pcJ15BKCB0D8btjZtBGOseQP5SJa8GozEPLp+RJRsoYSE6
+hulH9DLBUOaUC/pGks0O9yDErwBomsbmklnF2Og8OfIeWFqoHcwx
 
 -->
