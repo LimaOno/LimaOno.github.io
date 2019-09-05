@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="https://limaono.github.io/CuisSource.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>Cuis</name>
+  <name>CuisSource</name>
   <summary>The Cuis Smalltalk implementation</summary>
 
   <description>
@@ -39,20 +39,20 @@ Cuis assumes very little on the underlying platform, and this lets it run out-of
  -->
  	<requires interface="https://limaono.github.io/OpenSmalltalk.xml"/>
 
-    <implementation arch="*-*" id="sha1new=330b8cfa996ad1f8d38e413fe8031f00c22fb706" released="2019-09-05" stability="stable" version="5.0-3849">
+    <implementation arch="*-src" id="sha1new=330b8cfa996ad1f8d38e413fe8031f00c22fb706" released="2019-09-05" stability="stable" version="5.0-3849">
       <manifest-digest sha256new="2NEFUXTOKDGAQ4OKBKHWKXB6HI76DPJP4QVP5GV3LIAPJO5M4AOQ"/>
       <archive extract="Cuis-Smalltalk-Dev-5.0-3849" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-3849.zip" size="60648659"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1xEOcACgkQpIiFFUIf/SseLgv/S63y
-/JZzQnt7WFeb6H2DtoYOuZMVAG4fn5qbV2x7l958xmdm4vdyov0XUvBz+ezZ2Ei7JobsLyNd8MkS
-ERXBa/1OjHxuMuk51+3OE2yZew4Ladg/1fy7K9EwX9r1Phtg0aGZql/PbLECjERbTq2jQrG4WtFl
-M6AtW1Epv6BBeCttxAiHrWx1m13gGCoVUjK/ss7PZfAocX+fVt9VSaBz2dB9hnu4MeC3WoqxbXJT
-M/x37o+XSflHHhuHF2b1Yo09xhrbKrF3iPHXjWO0Yl2r51kOiCwb2nMGDp3ejEKLIygwSt2gdakm
-TJD3/5PSDh6gD2CPNxg0/AwUpBT1Ht8+nAS/MjQFjvKKjsHGNdkN94CkfQMG513rKrVUCHqlxSok
-q5Zch7IYH+pzxTkfcAwrLntnXWpZbw+Yd7GtupDlW3NblqqGFQ8SmdXwZG0xTeiKEeq5fq441JJl
-tuxGZ+dD2gLuRSBNVgdGSruXssXx6GYnMQHCHVO5bDq4Tc52xlj/
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1xEksACgkQpIiFFUIf/SuLHwwAucAX
+s1jyIpBJhTOG3R5xspyKiOarJnMgM3HBNaKEtxwDpxic/R8HCE9+2bTV+gcZ4fvg3EwjtvR1ySaz
+zqOa2Xd+1FoTAmPcAG/PSv1J5fwQfKSzznhm/EDhw7mB8UP9rPOK3w9Bt0w5hM32Q7fauWrShbqx
+kZgEpq7oFT3VQiHScVs5VOCKmt7VY14FXHaYvYG2KeMJaPzdPS4HwPZ8UdhYzYYS4JpuV4nIdk2D
+GEXM9hFTg1IG3+pv9SmJuHCLukqXDP868JzOaSHUHUutmExdkO1qqyCDISbjh5BDKagsz3Rbv6xN
+c88/t8ynGuk32QMWWSgiBAskAMZMl3oE4vCW67Lsq/0yIrkT3vg+Kynx5yT5h1hwbZdbQrfzmtNR
+lHohYHvoUHEUmsyb3PKD0Argbl+nZ3sae0sXONYvvzzq4h8UzMjlje6Ihln0mBVAJWUCZUbY5WWe
+aDRpc5HBdNf5KXoer/sj5098sE54nbs+Ducoj3k55rwmmXPCxZCY
 
 -->
