@@ -37,22 +37,24 @@ Cuis assumes very little on the underlying platform, and this lets it run out-of
       </runner>
     </command>
  -->
- 	<requires interface="https://limaono.github.io/OpenSmalltalk.xml"/>
+ 	<requires interface="https://limaono.github.io/OpenSmalltalk.xml">
+ 		<environment insert="." name="PATH"/>
+ 	</requires>
 
-    <implementation arch="*-src" id="sha1new=330b8cfa996ad1f8d38e413fe8031f00c22fb706" released="2019-09-05" stability="stable" version="5.0-3849">
-      <manifest-digest sha256new="2NEFUXTOKDGAQ4OKBKHWKXB6HI76DPJP4QVP5GV3LIAPJO5M4AOQ"/>
-      <archive extract="Cuis-Smalltalk-Dev-5.0-3849" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-3849.zip" size="60648659"/>
+    <implementation arch="*-src" id="sha1new=330b8cfa996ad1f8d38e413fe8031f00c22fb706" released="2019-09-05" version="5.0-3849">
+    	<manifest-digest sha256new="2NEFUXTOKDGAQ4OKBKHWKXB6HI76DPJP4QVP5GV3LIAPJO5M4AOQ"/>
+    	<archive extract="Cuis-Smalltalk-Dev-5.0-3849" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-3849.zip" size="60648659"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1xEksACgkQpIiFFUIf/SuLHwwAucAX
-s1jyIpBJhTOG3R5xspyKiOarJnMgM3HBNaKEtxwDpxic/R8HCE9+2bTV+gcZ4fvg3EwjtvR1ySaz
-zqOa2Xd+1FoTAmPcAG/PSv1J5fwQfKSzznhm/EDhw7mB8UP9rPOK3w9Bt0w5hM32Q7fauWrShbqx
-kZgEpq7oFT3VQiHScVs5VOCKmt7VY14FXHaYvYG2KeMJaPzdPS4HwPZ8UdhYzYYS4JpuV4nIdk2D
-GEXM9hFTg1IG3+pv9SmJuHCLukqXDP868JzOaSHUHUutmExdkO1qqyCDISbjh5BDKagsz3Rbv6xN
-c88/t8ynGuk32QMWWSgiBAskAMZMl3oE4vCW67Lsq/0yIrkT3vg+Kynx5yT5h1hwbZdbQrfzmtNR
-lHohYHvoUHEUmsyb3PKD0Argbl+nZ3sae0sXONYvvzzq4h8UzMjlje6Ihln0mBVAJWUCZUbY5WWe
-aDRpc5HBdNf5KXoer/sj5098sE54nbs+Ducoj3k55rwmmXPCxZCY
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1xFNQACgkQpIiFFUIf/SvOfQv/dW1w
+3o3Bch/kabS8UP726TvKPWLead7EHwXgIykRtndr2vfcQkJmy5Zg3MXRL30+y3PihyYhFTJUOxTr
+0OSLfwiijpFb9jFB98cOrITUPcjALoruLtDm33AOidwjUExCAtObV23pjsqqxQyvFdOGJq8r2ZhB
+QxdloS8DLQS/z9eocAPhzjghUB1myr0QjXyskml2x8OC9dXdFnNvBKu24oaUgcNR8jV6Bn+YA5DY
+fGMmTumX+o8ZUUPfTQE10ertBp93iEgbHA/a1bZhwO7t9MBrkWGBsZVRpOqng0pudWPh8rf2rTqj
+Af5zjZQr8yqdR3qQM6x0VMUm5uHrEBaJWZqFgN4np3OqFR8mqHwwG19VvZhjRLhWgLR8RG/kMMZ7
+FNSU+Q52Mj7IdK6PZC2r647rQAsnt7I6z+2TgmYrXNQ30b4gZjoy49ygEnm5WHSMnx6H27mGmMBT
+gY7veknhhnvTlWHaKTBokc1HwFk8HGJ7rU6qM1awFDyPHDvJ5pJP
 
 -->
