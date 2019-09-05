@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://limaono.github.io/OpenSmalltalk.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>squeak</name>
+  <summary>Opensmalltalk squeak vm for Cuis and Squeak</summary>
+
+  <description>
+  The OpenSmalltalk Squeak and Cuis virtual machine, with JIT
+  </description>
+
+  <homepage>http://opensmalltalk.org/</homepage>
+  <feed-for interface="https://limaono.github.io/OpenSmalltalk.xml"/>
+
+  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+    <command name="run" path="squeak">
+    </command>
+
+    <!-- Add additional requirements here.
+    <requires interface="..."/>
+    -->
+
+    <implementation arch="Linux-x86_64" id="sha1new=b0cc5e2438d0946959be5eb8ab1c730642c8069e" released="2019-09-03" version="5.0-201901172323">
+      <manifest-digest sha256new="EEZDKMQNID4DD522BXPH6G6XCKTQ5ZY7ZL2QFB4MHERKFRKK2TSA"/>
+      <archive extract="sqcogspur64linuxht" href="https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/201901172323/squeak.cog.spur_linux64x64_201901172323.tar.gz" size="3984624"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE1tKwcvCKKiRJYSABeDvtONL4YOUFAl1xAZYACgkQeDvtONL4YOXgiAwAoLGD
+rCxpPN0Ha449AuLk0BDsyXTDX/9IwjFG1ahGA5B8OyzpaSp2IYlmTiVXJ6xlr1irx+T43tTa7lsi
+0gl66xCGPXuu/tSHllXqfyPKnL5Q+WfhRDAy9V5WGD9b48hMZCFCwl2FCTnBYd8KPlWSY84b0d61
+9YoZ7QxqVbj2BpuE5MmdkIrinv++RLubTL3f9vGEjC/BIMvHN3H3JRzRLVl0+akEWUUUpu4gWKff
+QV+PKCdYrZHAoXPBY8YdkVO8EBKsfdxhie2WQU5YlAioIgg0Wiuvo7lej7LoEew9mXzWrn56Plgx
+Sem7/LuPdy18p4dWcBi8YGg4iKQIhT//NetgRACG8xXdA/nbRehLWgX7u8Z9P79Kx2fAPjG9kKjc
+nJ3wwqCVWgjV0XvJ8PmIthG4rzgg8t1OCApr1famr6Q8vkWyjZtikW2UeMP3h5sBfg1xg3j5zY9h
+UsnxSfyQxmYwC8cMAFiQMqlw4Lme4tOJo8og5ukFERP3lYDET8WU
+
+-->
