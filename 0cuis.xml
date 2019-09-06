@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://limaono.github.io/0cuis.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>0cuis</name>
+  <summary>Launch (and prepare if needed) a Cuis Smalltalk image</summary>
+
+  <description>
+  I know how to start a Cuis image, and to prepare it if necessary if I am given
+  access to a copy of the Cuis Smalltalk distribution
+  </description>
+
+  <homepage>https://github.com/LimaOno/CuisCommand</homepage>
+
+  <feed-for interface="https://limaono.github.io/0cuis.xml"/>
+
+  <group license="OSI Approved :: MIT/X">
+    <command name="run" path="0cuis">
+    </command>
+
+    <requires interface="https://limaono.github.io/OpenSmalltalk.xml">
+    	<environment insert="." mode="append" name="PATH"/>
+    </requires>
+    <requires interface="https://limaono.github.io/CuisSource.xml">
+    	<environment insert="." mode="append" name="CUISPATH"/>
+    </requires>
+
+    <implementation arch="*-*" id="sha1new=414fd3eee0d47f48af2ebc7d26455f365c17bd03" released="2019-09-06" version="0.1-pre2">
+      <manifest-digest sha256new="B4IIVWQPRW7R5KJMI6NQA4PVXBODHLGZ6QGHI2A244P5MADDB7ZA"/>
+      <archive extract="CuisCommand-0.1-pre2" href="https://github.com/LimaOno/CuisCommand/archive/v0.1-pre2.zip" size="2280"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yaNMACgkQpIiFFUIf/StSpAwAhgnA
+KOox28wHr6ivFVbHLlJ7TG7XrB7WWm0Te0eUfw6TXfn1yXpGXOcoYNaCFaVRcZ43V1aDQGjl2fbs
+ulUoPwOBAkDXxRb7yT+/3JtfjcaeYadnt78w2dS28E0bHyMAVnXgwNdEWfDKLmk8m3Jucdyqkk1B
+sylZftph5wBFcwG8rKQ3awcEH5gPx5H0z01mJoUSRpTBZayNrXyai2geSxbmEfIXjyKwNc64G1ny
+OuE910JK05gW1HSjYZthe8U4hUUOI1mJYEi22x+ZdKpopc0WsPnDi+SZ4KLShIFzw1i1+gRyy8Vf
+Kox9o8oYDcBEeOK/+XCMTn2KTXpCgCBzZlwT7ySSQC4xeR8Gj+hs8IdyB8Sy1LbTyA/HqRfoo7mD
+Yo2juju+xKIqUtpGhG6wR3LTHoIU/DlxA0lH+8AG1c/ospU9g/fD9gtGyGljCWWJDRwMbLy8xT0I
+bzjyhCHWqAaxMU6OYMfkxTzxwx4XwSG3I0Z7MXRcqQ/AfPVnZ3dF
+
+-->
