@@ -24,20 +24,20 @@
     	<environment insert="." mode="append" name="CUISPATH"/>
     </requires>
 
-    <implementation arch="*-*" id="sha1new=414fd3eee0d47f48af2ebc7d26455f365c17bd03" released="2019-09-06" version="0.1-pre2">
-      <manifest-digest sha256new="B4IIVWQPRW7R5KJMI6NQA4PVXBODHLGZ6QGHI2A244P5MADDB7ZA"/>
-      <archive extract="CuisCommand-0.1-pre2" href="https://github.com/LimaOno/CuisCommand/archive/v0.1-pre2.zip" size="2280"/>
+    <implementation arch="*-*" id="sha1new=278849c8247f4890929229f18460285556cd54cc" released="2019-09-06" version="0.1-pre1">
+      <manifest-digest sha256new="JIYVOT4I62KPZVF577JV3GDX4FQNWDYOWXVLJZUYBMZO52FSRQMQ"/>
+      <archive extract="0cuis-0.1-pre1" href="https://github.com/LimaOno/0cuis/archive/v0.1-pre1.zip" size="2861"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yaNMACgkQpIiFFUIf/StSpAwAhgnA
-KOox28wHr6ivFVbHLlJ7TG7XrB7WWm0Te0eUfw6TXfn1yXpGXOcoYNaCFaVRcZ43V1aDQGjl2fbs
-ulUoPwOBAkDXxRb7yT+/3JtfjcaeYadnt78w2dS28E0bHyMAVnXgwNdEWfDKLmk8m3Jucdyqkk1B
-sylZftph5wBFcwG8rKQ3awcEH5gPx5H0z01mJoUSRpTBZayNrXyai2geSxbmEfIXjyKwNc64G1ny
-OuE910JK05gW1HSjYZthe8U4hUUOI1mJYEi22x+ZdKpopc0WsPnDi+SZ4KLShIFzw1i1+gRyy8Vf
-Kox9o8oYDcBEeOK/+XCMTn2KTXpCgCBzZlwT7ySSQC4xeR8Gj+hs8IdyB8Sy1LbTyA/HqRfoo7mD
-Yo2juju+xKIqUtpGhG6wR3LTHoIU/DlxA0lH+8AG1c/ospU9g/fD9gtGyGljCWWJDRwMbLy8xT0I
-bzjyhCHWqAaxMU6OYMfkxTzxwx4XwSG3I0Z7MXRcqQ/AfPVnZ3dF
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1ylkAACgkQpIiFFUIf/Sus2wv+PpBY
+GCzkiM2NIBi0AyaVIgs1SrqI+6Tzy4sABQzIQtVxvEUxZdRurMrpnhBMf2nxKVlkTLLlv8/fDZjh
+SzKzMidZ48u58/ojVoVvlx4/ekb2KRiqR8daZLNUccKjQn0v85X26+iug4IwPXzm16081D/VhqGp
+LbJGAYysoVgTrOmTIP05FKl0dXCSv+aY0vITVlBIzOHA4PC2tE2kGRU5rM1gSxZNYY3wxFJLWKtd
+vuZKQ9ckH41+HzO0iMNPS95gaSrzDe5J3JiyXoCbYuOHLQpxeE67zP3rxSOtaLjT3kngFOu1lsuQ
+Rb305IJCyvS7mzgSEai9qoM6W0TOe5VJPQnmmI/6QNLxkbv0rvbWZju5BKcdhh2f0rk0rVndZvxH
+MNy2exlebBRWiDa+N76f2zzPHHAt2sicbmWW23iE43Jh+vIqjZLo7bBbTlw/HP0P/HeBXwi0MZ1d
+lEFqIvJ0euDpIKj3yS8GCRvnMMcdpzhpsV801yM6bW2aUhm0/QKv
 
 -->
