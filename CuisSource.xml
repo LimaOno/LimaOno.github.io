@@ -51,14 +51,3 @@ Cuis assumes very little on the underlying platform, and this lets it run out-of
     </implementation>
   </group>
 </interface>
-<!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yinwACgkQpIiFFUIf/SsvZgwAgJW3
-R5sVWnAVSUt03i83hJISZnxGFUzS3YcCv1CI4UrtIS1uojphPoJNi0ibhhDEZ4fpA8cvkwBUf0rt
-2XPKAMyP7VP31ZzONe9ZQzzDqfg3rq2F6kAMP5NZaIUl+hT90kJZHT0BaM2IYhcqDaNHhr4PdEsA
-f2oZX3pq1ZX9aK6YDvEDn/i3Pmc4wrywUW9BMX7n7GlSmO1zDu4d3uZIEktgJOe4ftGKJhhn7Hj9
-RCn25S3Iy16GAHOzK+sFtVTWsDZ31jKPivZ3a8eU5Pz9dnQ+wyLfKW8pQBMkQd4qaTaE/CMUZ8pt
-Sr4f4UQaSm3WEM/CWRCWXyiGSGmJNoK1ykxcARh7f90BG1VbSoLNvPq0PeMW+T20oZkulYWT78KB
-JFbxO76jAFHyrSfgskYS5slFVfHUlQbBXFlL1I4qg658SppNO8cTalKykwoLxoj1jztGc7oWL5EU
-SPGMLeayLJZEhaivUgm65P89WAaBLxI02gsCisDeYW+RpSwdN9x6
-
--->
