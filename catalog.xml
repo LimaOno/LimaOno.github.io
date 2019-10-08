@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="https://limaono.github.io/0cuis.xml"><name>0cuis</name><summary>Launch (and prepare if needed) a Cuis Smalltalk image</summary><description>
+  I know how to start a Cuis image, and to prepare it if necessary if I am given
+  access to a copy of the Cuis Smalltalk distribution
+  </description><homepage>https://github.com/LimaOno/CuisCommand</homepage></interface><interface uri="https://limaono.github.io/CuisSource.xml"><name>CuisSource</name><summary>The Cuis Smalltalk implementation</summary><description>
+Cuis is an Open Source, multiplatform Smalltalk-80 system.
+
+Cuis is
+
+Small
+Clean
+Appropriable
+
+Additionally, Cuis is:
+
+Open Source
+Multiplatform
+
+Like other Smalltalk systems, Cuis is also:
+
+A complete development environment written in itself
+A pure, dynamic Object Oriented language
+
+Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.
+</description><homepage>https://cuis-smalltalk.org/</homepage></interface><interface uri="https://limaono.github.io/OpenSmalltalk.xml"><name>squeak</name><summary>Opensmalltalk squeak vm for Cuis and Squeak</summary><description>
+  The OpenSmalltalk Squeak and Cuis virtual machine, with JIT
+  </description><homepage>http://opensmalltalk.org/</homepage></interface></c:catalog>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yxqgACgkQpIiFFUIf/St9JQv/S+kK
+nZixT/NpQggtyTgWXSXO2tiKVEfNb732t5ZIs4/N2VSvNwSR+7VRJl2/K7ndSk0f+Awo8Gwm+r/n
+XXfi3/UzDT+LqG9E7KtXsfYvBDjRQh7aApOiCGQk7v93hRD5dwreB6V0wvPgp0hyYwXGgzlhOMcl
+Q+SfH0JIfz2DY3VqHYlNPgZe/LCbsAsYDspF0v/3Y9HrndpjDPIpTt2GzU7mrpFxiWIFPk+fD7ko
+Bm244J2dEmjGmdzna/wQiCUuYF8QS5Q56XKAwnE/GGU7VvmmtJzhZLTi4br+Enz86u4DQu5EjuFa
+qq/csJMKjQ+0t6SR4Wh5fI+u4M/S1OkLNh17nSVbdxHs5zH19l7uRACurtzy2cZdbPlDs2i34TJv
+yPR+2wuAq6wASlaHCNKVdqRCg+JEPDxRDsOKh1NgeK3pd4/gbGT515933Dw4AfXBr8SAJA+IUJ5E
+z5cdQKVF87HuiNR/kDBCWxvBiUULy/slj/MvJbV5dZurPZuFbZIE
+
+-->

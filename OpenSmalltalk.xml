@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
 <interface uri="https://limaono.github.io/OpenSmalltalk.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>squeak</name>
   <summary>Opensmalltalk squeak vm for Cuis and Squeak</summary>
@@ -25,3 +25,14 @@
     </implementation>
   </group>
 </interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yxqgACgkQpIiFFUIf/SvRAgv/TyIR
+pJHB+m9xsvnehchdmIjc+vKDWlfjjuIuzmKTv9BXEx6d4ZvjstBMqXCjN1+KknC25/xYAlJ61rcV
+Io4RRTmbBBDSeHl8gTRC+55iWw5WabdqjWTatfWmKgxBc9VNXyJpEDaimLPAI4lPyE6DrK2k/vCb
+GunbesDdOIeeB7DHYOS+57+LxIkL6a6SKZCUtkd13ccNT38kLFlfJ38ARR6zG8HeyngMI+IZtT4I
+JG0Yp9Wj8jyJlDSp5wevK02dTjN+N5X0RDJ14tTFnYvuZ9329TWwMQvCDziKVVmkCUDz9iYx3E8o
+B3SI2DnPHUxLA0I1CdFcndZlxz6WXVjhU+dCuaU29MS71+Y3yNYxmojiTX9IvNGryXkGeD/LLoLg
+bCUs3novo25dctKTk3CYPok6XSOiwSfap9t6yCrA4C8/67SMKqZx+EbS70dKgD0XGuKeoJhrUURz
+1Csp6aoFnIpAHIO932xyJ5hfY5NmMSI7tl4y3knMr9lvfpz7uHMM
+
+-->

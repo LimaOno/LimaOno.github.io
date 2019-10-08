@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
 <interface uri="https://limaono.github.io/0cuis.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>0cuis</name>
   <summary>Launch (and prepare if needed) a Cuis Smalltalk image</summary>
@@ -30,3 +30,14 @@
     </implementation>
   </group>
 </interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yxqgACgkQpIiFFUIf/SvK8wv+J0yK
+X6ZdJU8MEA10OqDI3LhYiW2MCal7Kfd+FMawKYhe63fLyqqNZxphc1v4d40tSZA+i+IuQrrZ1SQS
+eFWtGBfPLWLD+NS4hb4UhWU1kU8qCp0rzBvckF2cvVWwhz+M3Ug1cXy2k7p3JbSwc7xHtBLK8XNf
+ksoIEBNYKFv47NFXSmOHL7lj4dkNpsLIPP5C4Z0+Ql8f2nVl1n734vZ9ub32BU0D92yBLO9iNiXT
+CqeVRHkOdJdcxyiNNybstdJRIdD0k+ftXiziPPkdY9JIm6LiAoZKjb/Tfp56U3RgpSNdw8rB+Sis
+Fe60bQX+rOp8s3d3nMkTd8JjUiec4zS5IHwVnJqVKKsvsVV+3Gu6dIZZtdmBpe1hDwJ5NRib2q3N
+EALotdccfJkYkuXgu87RXtO1y4JUqDeLdkwxlMPZYkoVi0LZwsw4QprowLBjeH23T3zXKuyHda9D
+rGgndxkwbqWqbj51ZWe3toRDMxvnXFzny7/N+5oCaol77eijF+3J
+
+-->
