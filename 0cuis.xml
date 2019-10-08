@@ -14,30 +14,33 @@
   <feed-for interface="https://limaono.github.io/0cuis.xml"/>
 
   <group license="OSI Approved :: MIT/X">
-    <command name="run" path="0cuis">
-    </command>
+    <command name="run" path="0cuis"/>
 
     <requires interface="https://limaono.github.io/OpenSmalltalk.xml">
-    	<environment insert="." mode="append" name="PATH"/>
+      <environment insert="." mode="append" name="PATH"/>
     </requires>
     <requires interface="https://limaono.github.io/CuisSource.xml">
-    	<environment insert="." mode="append" name="CUISPATH"/>
+      <environment insert="." mode="append" name="CUISPATH"/>
     </requires>
 
     <implementation arch="*-*" id="sha1new=278849c8247f4890929229f18460285556cd54cc" released="2019-09-06" version="0.1-pre1">
       <manifest-digest sha256new="JIYVOT4I62KPZVF577JV3GDX4FQNWDYOWXVLJZUYBMZO52FSRQMQ"/>
       <archive extract="0cuis-0.1-pre1" href="https://github.com/LimaOno/0cuis/archive/v0.1-pre1.zip" size="2861"/>
     </implementation>
+    <implementation arch="*-*" id="sha1new=46adf0f33a8220b26e3da54608bbc4689e6143cf" released="2019-10-08" version="0.1-pre3">
+      <manifest-digest sha256new="DPQ5PRSGWIFPPOPQBYW2BJNWAYXA4RRYUDI6FQYW2IWQKFQ5DLDQ"/>
+      <archive extract="0cuis-0.1-pre3" href="https://github.com/LimaOno/0cuis/archive/v0.1-pre3.zip" size="3617"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yxqgACgkQpIiFFUIf/SvK8wv+J0yK
-X6ZdJU8MEA10OqDI3LhYiW2MCal7Kfd+FMawKYhe63fLyqqNZxphc1v4d40tSZA+i+IuQrrZ1SQS
-eFWtGBfPLWLD+NS4hb4UhWU1kU8qCp0rzBvckF2cvVWwhz+M3Ug1cXy2k7p3JbSwc7xHtBLK8XNf
-ksoIEBNYKFv47NFXSmOHL7lj4dkNpsLIPP5C4Z0+Ql8f2nVl1n734vZ9ub32BU0D92yBLO9iNiXT
-CqeVRHkOdJdcxyiNNybstdJRIdD0k+ftXiziPPkdY9JIm6LiAoZKjb/Tfp56U3RgpSNdw8rB+Sis
-Fe60bQX+rOp8s3d3nMkTd8JjUiec4zS5IHwVnJqVKKsvsVV+3Gu6dIZZtdmBpe1hDwJ5NRib2q3N
-EALotdccfJkYkuXgu87RXtO1y4JUqDeLdkwxlMPZYkoVi0LZwsw4QprowLBjeH23T3zXKuyHda9D
-rGgndxkwbqWqbj51ZWe3toRDMxvnXFzny7/N+5oCaol77eijF+3J
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2c9xMACgkQpIiFFUIf/StdNwv+Lg03
+eyWPncZy6XDGvizHNIl2La7PwyWICSBVQvU1qVyExl9YniGJFcyiKDMfT82bZhtROq9JiYeMtDlt
+TKbm+ZqGr+pr9bRDpvsxo8jsmKQUpt/W3AsgQzqFf5lJC4SgzmW3jUvfV9p7dsrW5fyO5DBJ6Ce1
+Uh2ls/VXJIDJGxmK6Pz3JqxFCT8mkhkHyROAjkzXfCgqmJ6unNYUCJdA64UyaFANYGSbXCdK8xLe
+Ah5bdx2uvyDFvfT6mkJNPq6uKRpzsiRMJvldcOH18kMcINKA3btpIX/56GMJ9pIJU0nfKkCRkN4u
+TicQI5rYYHuuNhSVfEjCj5Hwju0CCR/mWIx7D1cnjcNvLiCANvZWmH3ZUUKgpDKOUOttpqzYUxHo
+wzbSoJTt4EIFk5TpSBYNl+rFvBVun1VntIppPViUN2d8IJFWUfIn0P7RwX1bUe0VXnSTO+BCVd2a
+qUVKJUEbohhhIDr7z7OJemdv5ThbogFDhAPFRBzK58bH53XFv7xl
 
 -->
