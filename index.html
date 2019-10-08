@@ -165,6 +165,8 @@ Error message and password prompt
 
 <li>$:/state/tab-2065006209</li>
 
+<li>$:/state/tab/moresidebar-1850697562</li>
+
 <li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/StoryList</li>
@@ -177,7 +179,11 @@ Error message and password prompt
 
 <li>$:/view</li>
 
+<li>6th October 2019</li>
+
 <li>7th September 2019</li>
+
+<li>8th October 2019</li>
 
 <li>Home</li>
 
@@ -9418,10 +9424,13 @@ Error message and password prompt
 <div created="20190907162800116" modified="20190907163839060" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
+<div created="20191006123339098" modified="20191006123339098" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Recent</pre>
+</div>
 <div created="20190907163629050" modified="20190907164039727" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/More</pre>
 </div>
-<div created="20190907162725607" list="[[7th September 2019]] Home" modified="20190907162725607" title="$:/StoryList">
+<div created="20191006123340602" list="[[8th October 2019]] [[6th October 2019]] [[7th September 2019]] Home" modified="20191006123340602" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9594,8 +9603,59 @@ Error message and password prompt
 <div created="20190907164058042" modified="20190907164058042" title="$:/view">
 <pre>pop</pre>
 </div>
+<div created="20191006123348889" modified="20191006125055824" tags="Journal" title="6th October 2019">
+<pre>! Rationale
+
+To show how to externalize dependency management outside of Smalltalk, using Cuis as a
+vehicle
+
+! Objectives
+
+* Allow the expression of versioned dependencies when building software / applications, and properly load dependent packages, code and libraries from various sources.
+
+* Ensure that the problem of solving those dependencies is properly expressed and that an appropriate solver is used to resolve the dependencies.
+
+* Allow a build to protect itself from the injection of hostile dependencies
+
+* Requires very limited support for importing those dependencies in the target language
+
+* Allow development on dependencies
+
+! References
+
+Regarding the problem of solving import dependencies (libraries, packages, etc...), a pointer to Russ Cox and the versionning proposal for golang:
+
+https://blog.golang.org/versioning-proposal
+
+Reading material:
+
+https://research.swtch.com/version-sat (Dependency hell is NP-complete)
+
+https://research.swtch.com/deps (Download and run code from strangers on the internet. What could go wrong?)
+
+! Methodology
+
+* Integrate 0install (https://0install.net/) as an external dependency management tool
+** 0install ensure the expression of versioned dependencies and download dependencies
+** 0install maintain a signing process to validate dependencies
+** 0install use a proper solver for dependency satisfaction
+** 0install allow for development and injection of dependencies locally
+** 0install uses various methods to inject dependencies in target languages or environment
+** 0install allow for dependency resolution via the host operating system package management
+
+* Write / modify code for dependency injection in Cuis
+** Allow for recovering dependencies via one of the methods supported by 0install</pre>
+</div>
 <div created="20190907163929062" modified="20190907164023371" tags="Journal" title="7th September 2019">
 <pre>Started this wiki for documenting for now Cuis + 0install attempts</pre>
+</div>
+<div created="20191008084606124" modified="20191008204145162" tags="Journal" title="8th October 2019">
+<pre>!Implementation
+* CUISPATH: contains the path of the reference CUIS image and environment, can be used to fetch default additional packages
+* CUISPACKAGESPATH: contains a $: separated list of additional packages
+* Changes to FeatureRequirement to use both of those environment variables to find repositories with packages, integrated inside the 0cuis command.
+** Need to check if the use of CUISPATH with all subdirectories is slow.
+</pre>
 </div>
 <div created="20190907163632622" modified="20190907163730788" tags="" title="Home">
 <pre>First page, a home tiddler</pre>
