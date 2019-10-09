@@ -11,6 +11,11 @@
   <homepage>https://github.com/LimaOno/OSProcess</homepage>
 
   <group license="OSI Approved :: MIT/X">
+    <command name="run" path="0cuis">
+      <runner interface="https://limaono.github.io/0cuis.xml"/>
+    </command>
+
+     
     <requires interface="https://limaono.github.io/CuisSource.xml">
       <environment insert="." mode="append" name="CUISPATH"/>
     </requires>
@@ -22,13 +27,13 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2eK48ACgkQpIiFFUIf/StuUwwAiIV8
-90Xaj0E3KKUCBhlaUw/d26+SUvf6WRkO0VgIKFJmKWaGG8VFg4/btLwYRUov1pMqoGjg569Ahg5J
-VAfRL6np2NFhIsuiKc/NgheXRxF1h5LjlRxOkUYZoDGYlKa+6EgB1Sycg9QF+ZMztqCRe6u/yhdk
-E3LCfDtUVkgXo2s4JdHzeWm+yZTB8Sugd0j3EsqPS9mDoUQA7IVIXue2unLMBJR/C3fpsgAE28og
-805jD745Xs9qdP917Y9fpc5ZgPhZS5nRx5uio0vW8QsJ0A1QSBsXUpqYCKsAQT5zwGda2balwcZW
-vWYSE0XyVrPttjCtWQdq68w43g7hgZyxzoeAHBaflf1HT++0QyWY/x8sKBekjO3e97ceSMlZXP53
-sUz7LAWyRkIvbCBXaw7NrjCmSTcu3B5AzGfIKtsHqg0Ee47+x6CvjjxHthadhbH9+zZEAGS756qJ
-GTVrEmS95WAmwicbOoxckvOuuj55m109az7OWkrMtT9VSqg7rv+O
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2eSOEACgkQpIiFFUIf/SuIggv/UPPq
+nGkeQJ9y5xwa1t7HlA0Zd8flppulPJ1qJyxokij2VIDHENILS5a4Gjemvfs0oUNPdbBIqcDiUNef
+zbwyUPdAe7HOY/OIqEWvUTs5wnN5AH289cTYm+uBKqIDvN4XI+hTpEj+qT8oKBMOvzstLf2YHNhi
+CeKp6ocQcb5/LO3mJnS3xHU7/WHw4EM1wxP512CYwyRpWBTUGrNuff5yo9AJz/9mN+ohx5FjlFW4
+4qUnkrLCMbYNt37F/eICkUrjxqOPW/3Y6vlNI1LBYR9pdCODNv6LmZQHeY4s2jSAbCs+CWjqRehN
+p4/QqT6eWn9RXrtXGJqLeFN017bVlJHMkZaFgAqR6Z3lviV6Z5Ah70bAq84XhCnnSP+i9Xemh1VQ
+/iRGiiwyphjw8TXRq5hoUGH2P+jVSP9h2dacT6yoB6yNUqCaWt2lz4JovSkiqRYoUl92PI2bZnII
+4guGk69a+s/5DwHFr/JeqnoHVdJbad+fsW3NT+7ODjU1svmYiiE9
 
 -->
