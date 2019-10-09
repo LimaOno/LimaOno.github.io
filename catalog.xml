@@ -23,17 +23,19 @@ A complete development environment written in itself
 A pure, dynamic Object Oriented language
 
 Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.
-</description><homepage>https://cuis-smalltalk.org/</homepage></interface><interface uri="https://limaono.github.io/OpenSmalltalk.xml"><name>squeak</name><summary>Opensmalltalk squeak vm for Cuis and Squeak</summary><description>
+</description><homepage>https://cuis-smalltalk.org/</homepage></interface><interface uri="https://limaono.github.io/OSProcess.xml"><name>OSProcess</name><summary>OSProcess for Cuis Smalltalk.</summary><description>
+  OSProcess provides access to operating system functions, including pipes, child process creation, and control of the Squeak VM process.
+  </description><homepage>https://github.com/LimaOno/OSProcess</homepage></interface><interface uri="https://limaono.github.io/OpenSmalltalk.xml"><name>squeak</name><summary>Opensmalltalk squeak vm for Cuis and Squeak</summary><description>
   The OpenSmalltalk Squeak and Cuis virtual machine, with JIT
   </description><homepage>http://opensmalltalk.org/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yxqgACgkQpIiFFUIf/St9JQv/S+kK
-nZixT/NpQggtyTgWXSXO2tiKVEfNb732t5ZIs4/N2VSvNwSR+7VRJl2/K7ndSk0f+Awo8Gwm+r/n
-XXfi3/UzDT+LqG9E7KtXsfYvBDjRQh7aApOiCGQk7v93hRD5dwreB6V0wvPgp0hyYwXGgzlhOMcl
-Q+SfH0JIfz2DY3VqHYlNPgZe/LCbsAsYDspF0v/3Y9HrndpjDPIpTt2GzU7mrpFxiWIFPk+fD7ko
-Bm244J2dEmjGmdzna/wQiCUuYF8QS5Q56XKAwnE/GGU7VvmmtJzhZLTi4br+Enz86u4DQu5EjuFa
-qq/csJMKjQ+0t6SR4Wh5fI+u4M/S1OkLNh17nSVbdxHs5zH19l7uRACurtzy2cZdbPlDs2i34TJv
-yPR+2wuAq6wASlaHCNKVdqRCg+JEPDxRDsOKh1NgeK3pd4/gbGT515933Dw4AfXBr8SAJA+IUJ5E
-z5cdQKVF87HuiNR/kDBCWxvBiUULy/slj/MvJbV5dZurPZuFbZIE
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2eK48ACgkQpIiFFUIf/Sv5dQwAm9O0
+GR6yoXUDAlHb3ZIdiexY+4VlVPif/E559hoGhgLQ3Zc7PFF9FSobirszH75t8JSphrWiAMyqzAPG
+2mvUiW60eBC2K4KRxYzT5eGZa+Wrj4cEuA+NmnpZJ4c2cpxiZsMj/hkwy3qSFL1aSQ161ppfjhi2
+5i+Pa4hdKU3JewiVGE2baUSiZy16xZOTK9JlOrncYnuPA3WpE/o5bcKdIp1ZGRBpnMeEim7lwktT
+QD2BpbvquFrluoAcNlT6ArBEUotE9nre9z6Jehv3JkyqXEzE4htdOKjwLbB6Xk11hIMF11hiFFwt
+yL30rJy17/U89Bj9t6vrFZZdWxpmrWSE1HgBZ6zPN0FsgYFkxlVbUAo79I7EgAIfX5L+PETBKkYH
+1xfaAZRJHYwm5nR2Ebhyp/yCHzKxbmHOxeVpLLCFwrUa6b8kJuGSi/ZyGgJ5bkaZrgcsmaVfQQKi
+FBM78ysDanmfaclKRevDGZLuYpDyXZR8VJ7tUAt0m20erotrkWK1
 
 -->
