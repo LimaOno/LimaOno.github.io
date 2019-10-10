@@ -11,10 +11,11 @@
   <homepage>https://github.com/LimaOno/OSProcess</homepage>
 
   <group license="OSI Approved :: MIT/X">
-    <command name="run" path="0cuis">
-      <runner interface="https://limaono.github.io/0cuis.xml"/>
-      <arg>OSProcess.image</arg>
-      <arg>-rOSProcess</arg>
+    <command name="run">
+      <runner interface="https://limaono.github.io/0cuis.xml">
+        <arg>OSProcess.image</arg>
+        <arg>-rOSProcess</arg>
+      </runner>
     </command>
 
     <requires interface="https://limaono.github.io/CuisSource.xml">
@@ -28,13 +29,13 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2exFkACgkQpIiFFUIf/SuhOQwAmOLI
-CYdxLRv3FcJQkSjjNFyvpyzhMgNEjyqJP0miDepu8QFIq5oYlv9zz4kglNHjw3/4B70gFqX6lXtF
-sdaOWKr5sy7dA2/OiYJiVTQsmIeM303TXbg13f5ZlzeAbUPNz16MG5D3bYHV0DVFti130taQYT2U
-EzpHt/e16N8P7/oxt6m5nhlFYXp9bxL0v9xr1RC1dYOlqvMlgzPawMev/CmnB73PiV0RcdUIEeNc
-2Yf9q+VNVanIZjZjYy9FsAG495pmjI5UWE4Fhqi6bAer0krklDYWFTDE8z8fhUaGVm1ocFIvX/Ba
-bjIOUnNEHpWn1jNxOuRR+2ie82EU2CINtOXnUuDgJElozRzXlJPsPhvysOUH/mzqVeaWsvxEB0Mc
-COHl0JM7eD+I+Rg8chPRXkV1kSwmootcBG45dzxKXKiZyHkAS8S7dizXQQePhSlMxLssrX3dg1Oh
-fAgDhol9ZjS32GbJwWzoO1174A76I7g8aRQghMCA1xuira9FcdT1
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2exjYACgkQpIiFFUIf/SuUwgwApOsm
+i6WEzQMprMv+B6jwo1HSHlfMbJp4/FVSEDjdTn9oI5rq05T78Sodc7xgQ4e6Z7MjPmGyTdcu+6e3
+r76zuFM5zA5STEtVveQWWvaJuj7ogQy/Tytzm+K+plOAgTfUhRQJEM6TGKbfnYuVabaaECNFDOCg
+TLrgfYiTGaLOhnnucz6VXCl1UXEWw8x9S0oM8XKY2finmPafCatPxLoGPTyfyCgbNpuT8u4Lj2bB
+khLh7RcSGqmms/snsTSucLESe6E3rgPoYcVsp7457KZ98lkbTh2op96KRyCFM5kEjDtAe5ngdZpg
+3WxGwOijaeCsiSd1Fgk4m+7tSjCM2es0btLMWiOSXrB8ymEUzCrHEZUaXnmOS0wJpd+3wDfEdAr8
+XfJ7TmGS28cSVAS3zVaFTMpHAjKSYwK0Xk4XFXEPmqFR0+hH6s2YaJUX0RJMkmu6kA5JlX4JOAi8
+bO+pidSXHOTbHUCR7+49BzgURE4mURgOu8Xb3u9Xcc7aDxFtqwFt
 
 -->
