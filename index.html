@@ -161,6 +161,8 @@ Error message and password prompt
 
 <li>$:/SiteSubtitle</li>
 
+<li>$:/state/showeditpreview</li>
+
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
@@ -178,6 +180,8 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/vanilla</li>
 
 <li>$:/view</li>
+
+<li>10th October 2019</li>
 
 <li>6th October 2019</li>
 
@@ -9418,6 +9422,9 @@ Error message and password prompt
 <div created="20190907162651895" modified="20190907162652307" title="$:/SiteSubtitle">
 <pre>my non-linear personal web notebook</pre>
 </div>
+<div created="20191010065036745" modified="20191010065036745" title="$:/state/showeditpreview">
+<pre>yes</pre>
+</div>
 <div created="20190907162753613" modified="20190907163837835" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
@@ -9430,7 +9437,7 @@ Error message and password prompt
 <div created="20190907163629050" modified="20190907164039727" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/More</pre>
 </div>
-<div created="20191006123340602" list="[[8th October 2019]] [[6th October 2019]] [[7th September 2019]] Home" modified="20191006123340602" title="$:/StoryList">
+<div list="[[10th October 2019]] Home" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9603,6 +9610,42 @@ Error message and password prompt
 <div created="20190907164058042" modified="20190907164058042" title="$:/view">
 <pre>pop</pre>
 </div>
+<div created="20191010064743671" modified="20191010143326966" tags="Journal" title="10th October 2019">
+<pre>!Bugs or issues
+* When having multiple times the same requires, then, if a dependency injection is added in the requires, the dependency injection is done twice.
+
+* Example: if I have:
+
+&lt;&lt;&lt;
+
+```
+    &lt;command name=&quot;run&quot;&gt;
+      &lt;runner interface=&quot;https://limaono.github.io/0cuis.xml&quot;&gt;
+      &lt;/runner&gt;
+    &lt;/command&gt;
+```
+
+&lt;&lt;&lt;
+
+* and:
+
+
+&lt;&lt;&lt;
+
+```
+&lt;requires interface=&quot;https://limaono.github.io/CuisSource.xml&quot;&gt;
+    	&lt;environment insert=&quot;.&quot; mode=&quot;append&quot; name=&quot;CUISPATH&quot;/&gt;
+    &lt;/requires&gt;
+```
+
+&lt;&lt;&lt;
+* Then, because the same requires is inside the 0cuis feed, CUISPATH will be appended the same path twice.
+
+* The solution is to use a &quot;replace&quot; mode, but to also keep using insert=&quot;.&quot; because the alternative, value=&quot;.&quot;, does not do path expansion.
+
+!
+</pre>
+</div>
 <div created="20191006123348889" modified="20191006125055824" tags="Journal" title="6th October 2019">
 <pre>! Rationale
 
@@ -9657,8 +9700,70 @@ https://research.swtch.com/deps (Download and run code from strangers on the int
 ** Need to check if the use of CUISPATH with all subdirectories is slow.
 </pre>
 </div>
-<div created="20190907163632622" modified="20190907163730788" tags="" title="Home">
-<pre>First page, a home tiddler</pre>
+<div created="20190907163632622" modified="20191010181703506" tags="" title="Home">
+<pre>![[0Install]] and [[Cuis]]
+
+An attempt to use 0install to manage the package dependencies of Cuis.
+
+Use 0install to make dependencies satisfaction correct in Cuis and simplify the Cuis part of the implementation.
+
+
+&lt;&lt;&lt;
+
+```
+0install run https://limaono.github.io/0cuis.xml
+```
+
+&lt;&lt;&lt;
+
+
+!!Implementation
+
+* Make Cuis source + the OpenSmalltalk vm installable by 0install.
+* Add dependency injection to Cuis. Allow 0install to satisfy Cuis package dependencies (and Cuis to properly load them).
+* Add a 0cuis command to build / run a ready to use Cuis image, with the dependency injection active.
+* Map Cuis packages into that system, starting with OSProcess.
+
+!!Fun facts
+* 0install allow dependencies to be satisfied by the host OS libraries and packages
+* 0install allow development of packages via the addition of local feeds, from the development repositories of the packages for example.
+
+!!Links
+
+* The catalog listing the 0install feeds:
+**[[https://limaono.github.io/catalog.xml]]
+* A simple example to have a Cuis image ready with the OSProcess package loaded.
+
+&lt;&lt;&lt;
+
+```
+0install run https://limaono.github.io/OSprocess.xml
+```
+
+&lt;&lt;&lt;
+How to work on a package (for example the OSProcess package)?
+
+* Clone the OSProcess git repository
+* Add it as a local feed:
+
+&lt;&lt;&lt;
+
+```
+0install add-feed OSProcess.xml
+```
+
+&lt;&lt;&lt;
+* Then run in a working directory the command; it will create (and in the following simply open) a Cuis image with the package loaded inside.
+
+&lt;&lt;&lt;
+
+```
+0install run https://limaono.github.io/OSProcess.xml
+```
+
+&lt;&lt;&lt;
+
+</pre>
 </div>
 
 </div>

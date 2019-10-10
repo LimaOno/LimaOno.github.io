@@ -19,23 +19,24 @@
     </command>
 
     <requires interface="https://limaono.github.io/CuisSource.xml">
-      <environment insert="." mode="append" name="CUISPATH"/>
+      <environment insert="." mode="replace" name="CUISPATH"/>
     </requires>
 
     <implementation arch="*-*" id="sha1new=cd86de0235f3e035bc8a33c771cd15780b141484" released="2019-10-10" version="4.6.14">
       <manifest-digest sha256new="FKK4Q4B2T4FYQ4EEUQ2JSOXIUS52XWBQT6623TA65EFCZPLGJL6A"/>
       <archive extract="OSProcess-4.6.14" href="https://github.com/LimaOno/OSProcess/archive/v4.6.14.zip" size="93943"/>
+      <environment insert="." mode="append" name="CUISPACKAGESPATH"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2exjYACgkQpIiFFUIf/SuUwgwApOsm
-i6WEzQMprMv+B6jwo1HSHlfMbJp4/FVSEDjdTn9oI5rq05T78Sodc7xgQ4e6Z7MjPmGyTdcu+6e3
-r76zuFM5zA5STEtVveQWWvaJuj7ogQy/Tytzm+K+plOAgTfUhRQJEM6TGKbfnYuVabaaECNFDOCg
-TLrgfYiTGaLOhnnucz6VXCl1UXEWw8x9S0oM8XKY2finmPafCatPxLoGPTyfyCgbNpuT8u4Lj2bB
-khLh7RcSGqmms/snsTSucLESe6E3rgPoYcVsp7457KZ98lkbTh2op96KRyCFM5kEjDtAe5ngdZpg
-3WxGwOijaeCsiSd1Fgk4m+7tSjCM2es0btLMWiOSXrB8ymEUzCrHEZUaXnmOS0wJpd+3wDfEdAr8
-XfJ7TmGS28cSVAS3zVaFTMpHAjKSYwK0Xk4XFXEPmqFR0+hH6s2YaJUX0RJMkmu6kA5JlX4JOAi8
-bO+pidSXHOTbHUCR7+49BzgURE4mURgOu8Xb3u9Xcc7aDxFtqwFt
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2fbrsACgkQpIiFFUIf/SttaQv+JMdy
+m2ZN2LMtKA7Q5ut64FY9dvdLIwTyS+kG8mKqt0LGdcsG93YWTODErlDkLuzcTrGab+eQf3Z2d4A4
+x60coOBK6RF8K2kVL5Uv8nrD0medMv5VBrUYvjl1wUjBKlaOEq8yCt2XA0Q3necGxTjJRKvNvePT
+6UlsqxJOUQUHUdcNeRd+/SAE3BK9wvYDC+qjEx5OWxNVBrclAT6tqVYSigN6fYL8gPJ/jNCdncBG
+HIbmor21Huuh/wKVli6OZNTV1F0Hm7zcvmwyoWbw34Y1n0xedc4GTs+hYA13sia5fUWF9dcGKXRW
+Qq00A0UPjGC1nXxsQLBx5wiool9qg0fIM+GQSmZJSw+WM62E6wXdiu8IeJTZNh9Fxu5fSiDNQVZj
+KzGkQYBy4YyP9ijSURoeV7O/FaKTiWpeyWykLnbaCvZwnMUzv7E8XGLHALg4RSgCIFUEdVvR+t40
+HGUaah3DrlqE8p3uiE7eldpIcZImk8JNUetnoQOX2sqFhtR1PlUb
 
 -->
