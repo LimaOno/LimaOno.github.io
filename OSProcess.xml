@@ -13,27 +13,28 @@
   <group license="OSI Approved :: MIT/X">
     <command name="run" path="0cuis">
       <runner interface="https://limaono.github.io/0cuis.xml"/>
+      <arg>OSProcess.image</arg>
+      <arg>-rOSProcess</arg>
     </command>
-
-     
+
     <requires interface="https://limaono.github.io/CuisSource.xml">
       <environment insert="." mode="append" name="CUISPATH"/>
     </requires>
 
-    <implementation arch="*-*" id="sha1new=cd86de0235f3e035bc8a33c771cd15780b141484" released="2019-10-09" version="4.6.14">
+    <implementation arch="*-*" id="sha1new=cd86de0235f3e035bc8a33c771cd15780b141484" released="2019-10-10" version="4.6.14">
       <manifest-digest sha256new="FKK4Q4B2T4FYQ4EEUQ2JSOXIUS52XWBQT6623TA65EFCZPLGJL6A"/>
       <archive extract="OSProcess-4.6.14" href="https://github.com/LimaOno/OSProcess/archive/v4.6.14.zip" size="93943"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2eSOEACgkQpIiFFUIf/SuIggv/UPPq
-nGkeQJ9y5xwa1t7HlA0Zd8flppulPJ1qJyxokij2VIDHENILS5a4Gjemvfs0oUNPdbBIqcDiUNef
-zbwyUPdAe7HOY/OIqEWvUTs5wnN5AH289cTYm+uBKqIDvN4XI+hTpEj+qT8oKBMOvzstLf2YHNhi
-CeKp6ocQcb5/LO3mJnS3xHU7/WHw4EM1wxP512CYwyRpWBTUGrNuff5yo9AJz/9mN+ohx5FjlFW4
-4qUnkrLCMbYNt37F/eICkUrjxqOPW/3Y6vlNI1LBYR9pdCODNv6LmZQHeY4s2jSAbCs+CWjqRehN
-p4/QqT6eWn9RXrtXGJqLeFN017bVlJHMkZaFgAqR6Z3lviV6Z5Ah70bAq84XhCnnSP+i9Xemh1VQ
-/iRGiiwyphjw8TXRq5hoUGH2P+jVSP9h2dacT6yoB6yNUqCaWt2lz4JovSkiqRYoUl92PI2bZnII
-4guGk69a+s/5DwHFr/JeqnoHVdJbad+fsW3NT+7ODjU1svmYiiE9
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2exFkACgkQpIiFFUIf/SuhOQwAmOLI
+CYdxLRv3FcJQkSjjNFyvpyzhMgNEjyqJP0miDepu8QFIq5oYlv9zz4kglNHjw3/4B70gFqX6lXtF
+sdaOWKr5sy7dA2/OiYJiVTQsmIeM303TXbg13f5ZlzeAbUPNz16MG5D3bYHV0DVFti130taQYT2U
+EzpHt/e16N8P7/oxt6m5nhlFYXp9bxL0v9xr1RC1dYOlqvMlgzPawMev/CmnB73PiV0RcdUIEeNc
+2Yf9q+VNVanIZjZjYy9FsAG495pmjI5UWE4Fhqi6bAer0krklDYWFTDE8z8fhUaGVm1ocFIvX/Ba
+bjIOUnNEHpWn1jNxOuRR+2ie82EU2CINtOXnUuDgJElozRzXlJPsPhvysOUH/mzqVeaWsvxEB0Mc
+COHl0JM7eD+I+Rg8chPRXkV1kSwmootcBG45dzxKXKiZyHkAS8S7dizXQQePhSlMxLssrX3dg1Oh
+fAgDhol9ZjS32GbJwWzoO1174A76I7g8aRQghMCA1xuira9FcdT1
 
 -->
