@@ -163,6 +163,8 @@ Error message and password prompt
 
 <li>$:/state/showeditpreview</li>
 
+<li>$:/state/sidebar</li>
+
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
@@ -181,6 +183,8 @@ Error message and password prompt
 
 <li>$:/view</li>
 
+<li>0Install</li>
+
 <li>10th October 2019</li>
 
 <li>6th October 2019</li>
@@ -189,7 +193,11 @@ Error message and password prompt
 
 <li>8th October 2019</li>
 
+<li>Cuis</li>
+
 <li>Home</li>
+
+<li>XMLTemplate</li>
 
 </ul>
 </p>
@@ -9422,7 +9430,10 @@ Error message and password prompt
 <div created="20190907162651895" modified="20190907162652307" title="$:/SiteSubtitle">
 <pre>my non-linear personal web notebook</pre>
 </div>
-<div created="20191010065036745" modified="20191010065036745" title="$:/state/showeditpreview">
+<div created="20191010065036745" modified="20191010204544178" title="$:/state/showeditpreview">
+<pre>yes</pre>
+</div>
+<div created="20191010203947874" modified="20191010203949530" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20190907162753613" modified="20190907163837835" title="$:/state/tab-1749438307">
@@ -9437,7 +9448,7 @@ Error message and password prompt
 <div created="20190907163629050" modified="20190907164039727" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/More</pre>
 </div>
-<div list="[[10th October 2019]] Home" title="$:/StoryList">
+<div created="20191010203552660" list="[[10th October 2019]] Home XMLTemplate Cuis 0Install" modified="20191010205601016" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9610,6 +9621,15 @@ Error message and password prompt
 <div created="20190907164058042" modified="20190907164058042" title="$:/view">
 <pre>pop</pre>
 </div>
+<div created="20191010203811814" modified="20191011050040123" title="0Install">
+<pre>0install is a userland, multiplatform, language-agnostic, package management system with full dependencies expression and satisfaction. Documentation is at [[https://docs.0install.net/]] and the main site is at: [[http://0install.net/]].
+
+It comes with a suite of tools for managing package identities, dependencies, repositories and development, the main tool being ``0install``.
+
+It revolves around a concept of interfaces, feeds, and implementations. In a simplified form, an interface is an application identity, that is an uri (such as ``https://limaono.github.io/0cuis.xml``). A feed is an xml file describing, for an interface, the requirements, possible commands (such as ``run``) and implementations. There is a default feed usually at the interface uri, but not necessarily.
+
+</pre>
+</div>
 <div created="20191010064743671" modified="20191010143326966" tags="Journal" title="10th October 2019">
 <pre>!Bugs or issues
 * When having multiple times the same requires, then, if a dependency injection is added in the requires, the dependency injection is done twice.
@@ -9700,7 +9720,10 @@ https://research.swtch.com/deps (Download and run code from strangers on the int
 ** Need to check if the use of CUISPATH with all subdirectories is slow.
 </pre>
 </div>
-<div created="20190907163632622" modified="20191010181703506" tags="" title="Home">
+<div created="20191010205341361" modified="20191010205421454" title="Cuis">
+<pre>Cuis is a Smalltalk implementation targeting simplicity and concision.</pre>
+</div>
+<div created="20190907163632622" modified="20191010205555256" tags="" title="Home">
 <pre>![[0Install]] and [[Cuis]]
 
 An attempt to use 0install to manage the package dependencies of Cuis.
@@ -9763,6 +9786,48 @@ How to work on a package (for example the OSProcess package)?
 
 &lt;&lt;&lt;
 
+!!Templates
+
+* [[XMLTemplate]] for a local feed for a package.</pre>
+</div>
+<div created="20191010205608727" modified="20191011045929049" title="XMLTemplate">
+<pre>Using the OSProcess feed as a template, and with ``PackageName`` as a variable.
+
+```
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;?xml-stylesheet type='text/xsl' href='interface.xsl'?&gt;
+&lt;interface xmlns=&quot;http://zero-install.sourceforge.net/2004/injector/interface&quot;&gt;
+  &lt;name&gt;PackageName&lt;/name&gt;
+  &lt;summary&gt;Summary of the package.&lt;/summary&gt;
+
+  &lt;description&gt;
+  ...
+  &lt;/description&gt;
+
+  &lt;homepage&gt; ... &lt;/homepage&gt;
+
+  &lt;feed-for interface=&quot;https://limaono.github.io/PackageName.xml&quot;/&gt;
+
+  &lt;group license=&quot;...&quot;&gt;
+      &lt;command name=&quot;run&quot;&gt;
+      &lt;runner interface=&quot;https://limaono.github.io/0cuis.xml&quot;&gt;
+        &lt;arg&gt;PackageName.image&lt;/arg&gt;
+        &lt;arg&gt;-rPackageName&lt;/arg&gt;
+      &lt;/runner&gt;
+    &lt;/command&gt;
+
+     &lt;requires interface=&quot;https://limaono.github.io/CuisSource.xml&quot;&gt;
+    	&lt;environment insert='.' mode='replace' name='CUISPATH'/&gt;
+    &lt;/requires&gt;
+# &lt;requires&gt;...&lt;/requires&gt;
+
+    &lt;implementation id=&quot;.&quot; released=&quot;...&quot; version=&quot;...&quot;&gt;
+    	&lt;environment insert='.' mode='append' name='CUISPACKAGESPATH'/&gt;
+    &lt;/implementation&gt;
+  &lt;/group&gt;
+&lt;/interface&gt;
+
+```
 </pre>
 </div>
 
