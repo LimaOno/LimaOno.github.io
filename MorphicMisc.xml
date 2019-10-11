@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
+<interface uri="https://limaono.github.io/MorphicMisc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>MorphicMisc</name>
+  <summary>Additional Morphic packages</summary>
+
+  <description>
+  A collection of packages with additional Morphs and extensions to Morphic.
+  
+  Basic morphs used by various packages 
+- AddedCursors
+- BorderedImageMorph
+- DropColorMorph
+- DropTargetMorph
+- EditPanel
+- FontMorph used to display and select a font
+- FrameMorph
+- FramedLayoutMorph
+- ImagePallet
+- LabelMorph
+- LayoutMorphEditPanel useful to edit Layouts
+- LayoutSpecEditPanel useful to edit LayoutSpecs
+- LineMorph
+- PalletLayoutMorph
+- Panel
+- PluggableScrollBar
+- RadioButtonMorph
+- RadioGroup
+- SignMorph useful morph to &quot;point to&quot; non-morph objects
+- SimpleNumberEntryMorph
+- WindowTitleMorph
+  </description>
+
+  <homepage>https://github.com/LimaOno/Morphic</homepage>
+
+  <group license="OSI Approved :: MIT/X">
+    <command name="run">
+      <runner interface="https://limaono.github.io/0cuis.xml">
+        <arg>MorphicMisc.image</arg>
+        <arg>-rMorphic-Misc1</arg>
+      </runner>
+    </command>
+
+    <requires interface="https://limaono.github.io/CuisSource.xml">
+      <environment insert="." mode="replace" name="CUISPATH"/>
+    </requires>
+
+    <implementation arch="*-*" id="sha1new=7a4ef541de9ee65cc585dcd6d51d775abf197482" released="2019-10-11" version="1.142">
+      <manifest-digest sha256new="PLAJ45MM3ZFBKQN7RLM537BMJE2VDM6MYBYSE7ROBINZXD2LMY3A"/>
+      <archive extract="Morphic-1.142" href="https://github.com/LimaOno/Morphic/archive/v1.142.zip" size="1751604"/>
+      <environment insert="." mode="append" name="CUISPACKAGESPATH"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2gwYYACgkQpIiFFUIf/Ss2vQv+N6bH
+ZA4kQGJpG85OYBzPWZEpbNZOVROfVMBZ4oV/XniYG6HvRlRTzn1VMdWAgm5aEhYWHK6aJhqV9kYO
+Kh3RCRfUFH3wbMHe0VqDDhr4AuxTQCMBnTl6J0Xs25UNEFZlRmNQODMCjHVHfpHRL+5HVvnaqDcr
+vfgawHoSUy2aPftf+OVBjPi7wFVZXuWmfijXcW8uZVL4FZQgqgWosymEg23kAXn0elWbp3+ihxnW
+tNLgeua8Eb3x+C5Lov717DRefnjY3NlyIZAkwsVCKZYPnMFy7tVoeM1XqC+XOlqAhI4rlr0HNX+5
+H6p/1G+sP8bKR8ksJVi6Cj2Nqykb5uLfS4XM2UTieHf1x1Wc2/4DHlKm8zbb5aSVkq6DZMRWRbdc
+EzPmhrDKSoLMkXaGHy+Y/SkKpLMZ44nFRyQTBsHkTgj/yPJtuWfE6Raz+43c+XX9GXImafFi6/GY
+sjprVQZDwxLaXjxjqq2zdtNHqrGU/mWToccl9KU+zVCF2lqh0muv
+
+-->

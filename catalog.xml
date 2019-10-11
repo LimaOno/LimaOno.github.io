@@ -23,19 +23,44 @@ A complete development environment written in itself
 A pure, dynamic Object Oriented language
 
 Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.
-</description><homepage>https://cuis-smalltalk.org/</homepage></interface><interface uri="https://limaono.github.io/OSProcess.xml"><name>OSProcess</name><summary>OSProcess for Cuis Smalltalk.</summary><description>
+</description><homepage>https://cuis-smalltalk.org/</homepage></interface><interface uri="https://limaono.github.io/MorphicMisc.xml"><name>MorphicMisc</name><summary>Additional Morphic packages</summary><description>
+  A collection of packages with additional Morphs and extensions to Morphic.
+  
+  Basic morphs used by various packages 
+- AddedCursors
+- BorderedImageMorph
+- DropColorMorph
+- DropTargetMorph
+- EditPanel
+- FontMorph used to display and select a font
+- FrameMorph
+- FramedLayoutMorph
+- ImagePallet
+- LabelMorph
+- LayoutMorphEditPanel useful to edit Layouts
+- LayoutSpecEditPanel useful to edit LayoutSpecs
+- LineMorph
+- PalletLayoutMorph
+- Panel
+- PluggableScrollBar
+- RadioButtonMorph
+- RadioGroup
+- SignMorph useful morph to &quot;point to&quot; non-morph objects
+- SimpleNumberEntryMorph
+- WindowTitleMorph
+  </description><homepage>https://github.com/LimaOno/Morphic</homepage></interface><interface uri="https://limaono.github.io/OSProcess.xml"><name>OSProcess</name><summary>OSProcess for Cuis Smalltalk.</summary><description>
   OSProcess provides access to operating system functions, including pipes, child process creation, and control of the Squeak VM process.
   </description><homepage>https://github.com/LimaOno/OSProcess</homepage></interface><interface uri="https://limaono.github.io/OpenSmalltalk.xml"><name>squeak</name><summary>Opensmalltalk squeak vm for Cuis and Squeak</summary><description>
   The OpenSmalltalk Squeak and Cuis virtual machine, with JIT
   </description><homepage>http://opensmalltalk.org/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2exjYACgkQpIiFFUIf/SthbAwAl+C9
-FAqACCXaxk7VraOeR5BmjfJW9xR5PSpvfCezG2GPLiK9PzE5f9xv/YHWF+6/bATcAvL6nGjC/5Kb
-AMelFu2bVI4DPX0N1Tf/kXwMCn0WsFHzXIxi43UIq8OKBwYlOx1gMvu2OBGoWlt0CB0bjKxqGGvF
-GZ6Cn3ysjTNWjSr/f5aaWs+LOki4sHvRqKTwVAdSAvRjM0ZqldVPhbcp/8ff783DI043ekszf73n
-oIR8C+pKtI3/FvWyZBR7jk4ho+pM4gfoSjA5DDzj2z4JXesCl8rF6Ah4Fy77iDGNTLHXYTe+sz4u
-lhIv11G33emIX/wJhIY+dpim8j2jb2WcMQk8c2IjOa9uWgc8aUXgcAkrtHZkajUdCxrij+2EXX2E
-1HeIJJFTkDBZH8mFPUuokz1zgFPAHjZGl3tdHHog00S6rEDOMDyClS/RZan9YlTMPtSknk4F6XXL
-dPxP4YoJVAiI+UkjMZ2jipkSai4EbyzBTsozj0jmmiL6buuG6Srx
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2gwYYACgkQpIiFFUIf/SubXAwAruWX
+Lk4w6ELAmrC0D8BKgGSTgVpl3JvyjN+Rv55+L8+pqyh/TmLlLHwInkjkkSmO/0HGbuoKJT06NZng
+qP62FhiO1cyhmr1ze6WZWcQ6BeCaHgDsaY7Dllu+QNWGwx3JbjWQJjHPUwDp4PMrTGGXU9IAPZwd
+RMwasZnAXZdd4QeWVhoCOXY49X23szHa65xT141Z/LOg9jeNI1nAZla6hjDRCcZB/He7Kuapbucs
+9yJHyotoI0UPSLcrZYjHgjnbp0duvKVEZTA/Y0fRFm7AxsGtdXRjTMYtfW/1ewENtpJ7zyyt1HJV
+l1ZFgX64BdsDo1dBuNruDWmm7WGs7z3VsmpfHsZ76Mj1cVXBkJBTwFy+DbPWWhKf4LxXsJdvMLHx
+cn8vCnz6/2nl92OpJ9rE+bSWL30wx0an6jPQKiMd3SZkQWddTfOeMnzGlAWR3z5kDoLSV8mUJvb7
+zcffGdbSGRb9XfftpKqtiX3LEJcJAu2O2RPCuM/N81CnEe5kq0hN
 
 -->
