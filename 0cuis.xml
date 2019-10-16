@@ -39,7 +39,7 @@
       <requires interface="http://repo.roscidus.com/python/python">
         <version after="3.5"/>
       </requires>
-      <command name="run" path="0cuis">
+      <command name="run" path="0cuis.py">
         <runner interface="http://repo.roscidus.com/python/python"/>
       </command>
       <implementation arch="*-*" id="sha1new=e12a20b4e08ba016a6804bd1e6386ddcb2570044" released="2019-10-16" version="0.3">
@@ -50,13 +50,13 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2mpPAACgkQpIiFFUIf/Sut5Av/bm0y
-EUM9cVGeKqyrcUEQNh+SKOvZdR8ohYLAo2bIKGnspTMXmo2O3X4BJIo3GI1j/EoN/EXYvNZTB9w7
-C6I4S1SeHToWXVzjqEpeLsvUWwB8JQabNDzV2TqmbnsB8ZqpvEKp7rntLOtXynkv9yQYsJGLOLeB
-Y02UOSJwomHwmeBXv+5iPc6AscBZ5Lryor9xwMbm2UVJBgQc1SdFnb994ZG3i0JYNqqDxzOWrzpf
-bgrWUs1eN4BvIYdDsHW/0QkP0AH3pvTbm4TFJZWT5yox0uVK9Gznd4xSfM65tnN6mBOxEhJ08Rlo
-Rb5CMMgcq92Rpm9HT2KSmr6qcK0o6+D5dplDyBjRiRFD63XjDo23puL9Id1cWqJnICj/ycHudWOZ
-qZnzdnh1YHEiyaO+DEE898fHrSXr8F10hKmk0Ste/vhC0BtPrNpD2XoXNOFy1KzYthDmfc6bqmfU
-0FQrsCjJNSGNTeUWoSO2Hn5c1f3c9HAGnpcvUqA4FHQRQDTOdiEB
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2mwyQACgkQpIiFFUIf/SuABQv/d50o
+d0da+/99z25b3R1tgs7w130BNIBRmztbSwTJOgC4HtwsrfrEzwzOZIzf8kenruNeYE9AD6vM3Diq
+4NOnaTpE/fQYXv2IZUtu8EcC73pMPe6HwE9QF1hFG/tQzPgR0B5GyVFR7Gl8JXk7d2HTSu2L7Tbw
+WgtOFJCsF8kzwbXZCVVDNzz04k56J74ILBFEJY3JUHTJiolwrbqF1JCYLnMfBzQsD63I7OPe+4TE
+HmudnkJazCKRc+o40eu91qZ76OO4E+nTtf1nWJgs8tUZOy5954BGTXg9AvXXOI3aylWeIZ5BpIIA
+1J25jsFBTeRpb/zZpX0R/bTs+CKZqU+CGq5ss1A/UcPArCGjG7lxIjaJ2x6abTDCEkKFgk/tY8Gl
+YqP6LxnG9MlTdUD1hW0A2Z7gzmWO0tjcXXRHtccsf5LOQFXwAj9qrKlMKN4erM6+wxfhs9ymUq5S
+L05JVCCJ/9d2tanL026F6y2V0RARsiR0OIUnKIgGJBWDhNq3fuSm
 
 -->
