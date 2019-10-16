@@ -35,16 +35,28 @@
       <manifest-digest sha256new="4ELQKARDRWBNNQWQ2MRP3XAAIOFJLFLY54YC2BZFYGI6EBUOLV4A"/>
       <archive extract="0cuis-0.2" href="https://github.com/LimaOno/0cuis/archive/v0.2.zip" size="3584"/>
     </implementation>
+    <group>
+      <requires interface="http://repo.roscidus.com/python/python">
+        <version after="3.5"/>
+      </requires>
+      <command name="run" path="0cuis">
+        <runner interface="http://repo.roscidus.com/python/python"/>
+      </command>
+      <implementation arch="*-*" id="sha1new=e12a20b4e08ba016a6804bd1e6386ddcb2570044" released="2019-10-16" version="0.3">
+        <manifest-digest sha256new="NERPWGF5DWXU6L75SFXVECGQYYVKUX5VLG6474TGF2FXAYTF7KYQ"/>
+        <archive extract="0cuis-0.3" href="https://github.com/LimaOno/0cuis/archive/v0.3.zip" size="4346"/>
+      </implementation>
+    </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2h1dwACgkQpIiFFUIf/SsgJwv7BtY9
-L9D/2y5b5EfUyta4UVddc2COx/VMAMbMeix4U7aF1wEBdqv3IIw/bRryFoZpXGE50zGVs3F3VOYl
-/dOmw2lX5zydycjvS8+AiC/2PkX8rTG3/WrAUZKe1HJSsLT/h79o3ymAwSzyXx0fT92o3tUTztS1
-4kUksNASZrSUDn9ORi5yQO2aAfbapjbKKxcc7Je5PNVAd70CtYpJ1pahhJQW6sqNNCY9HaMydr85
-USabN9cfPAlLp2opnpp3+YZtp15YR6AqpTmzDWRvX3wBCpo8v8G4ZgjgWUJ9NJJEuV3dCKDcTbKF
-lICJoE1Ta70Rb+i9zwXDlppVXtvQailwGN1ClAv7ihktsjn9o0Ip4XaQofdBq2+UpLw3m3YXiNaC
-QNT3rV7Bjfxyb4nfnkSBNcrfSdxAWIKL2+wR50F5kYsrDMdKM9BM0ghBbV9hLm+fK31r2+8U/7Az
-Dw2gwO4v1gohJzAazz2SvSew0WRGqHj2TZBbmlDj4c1jrz/+RPPl
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2mpPAACgkQpIiFFUIf/Sut5Av/bm0y
+EUM9cVGeKqyrcUEQNh+SKOvZdR8ohYLAo2bIKGnspTMXmo2O3X4BJIo3GI1j/EoN/EXYvNZTB9w7
+C6I4S1SeHToWXVzjqEpeLsvUWwB8JQabNDzV2TqmbnsB8ZqpvEKp7rntLOtXynkv9yQYsJGLOLeB
+Y02UOSJwomHwmeBXv+5iPc6AscBZ5Lryor9xwMbm2UVJBgQc1SdFnb994ZG3i0JYNqqDxzOWrzpf
+bgrWUs1eN4BvIYdDsHW/0QkP0AH3pvTbm4TFJZWT5yox0uVK9Gznd4xSfM65tnN6mBOxEhJ08Rlo
+Rb5CMMgcq92Rpm9HT2KSmr6qcK0o6+D5dplDyBjRiRFD63XjDo23puL9Id1cWqJnICj/ycHudWOZ
+qZnzdnh1YHEiyaO+DEE898fHrSXr8F10hKmk0Ste/vhC0BtPrNpD2XoXNOFy1KzYthDmfc6bqmfU
+0FQrsCjJNSGNTeUWoSO2Hn5c1f3c9HAGnpcvUqA4FHQRQDTOdiEB
 
 -->
