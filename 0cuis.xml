@@ -50,17 +50,21 @@
         <manifest-digest sha256new="KK7Y7WJ5CMRKZISV3QW44RONTFBOOZC7SV4IQ6B63CE4X4UPWKYQ"/>
         <archive extract="0cuis-0.4" href="https://github.com/LimaOno/0cuis/archive/v0.4.zip" size="4385"/>
       </implementation>
+      <implementation arch="*-*" id="sha1new=9e4e7cb5889bb1669f45e98376a4f24c646289d6" released="2019-10-19" version="0.5">
+        <manifest-digest sha256new="PTGNOZU4M7Y7BIUNGNABFLZREPADSIIRQYGC34K747AWZ7TUGCGA"/>
+        <archive extract="0cuis-0.5" href="https://github.com/LimaOno/0cuis/archive/v0.5.zip" size="4538"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2o1zYACgkQpIiFFUIf/SuTpwv+It7z
-4X67dmqOGOdhGwazpOA9aoNWiSXcmLIgiBGm5iWTtLjbSFUEo1Sk5hsUl6iCiv/OrUs/7nvEysrk
-wi0RbMmCSVMAfMzwnQs5ZvaKtmCUfLiKc+msc+PxID88XPDMV7Xry+GIyeJHXqzPDi/pDhMdZCQe
-70dygt5glAnZZYc3RGsTx+oLMDz19RIerIoQxpIHOGZXJDIXBYYw3RSLK75AkvkyNcPeFKVw//NF
-NplcF7AkKxUiZTnCBa7xseLFc9ZR449ih05TCQeHiE3WDTmn6gZ25DbLbTN7wqgqd/Rb07SwYaZA
-kiBxDf0oFmmej3HOz47SYzM6Cly9NuH61h+etcDfseAAbCMl4EeJxYCA1r+IYbiPW9H1jJujaUmN
-Y7ujDRMtQcb/j+1NDKtMfOrMmZrfTWcg/6A7Vcl/fwqu0/+jcHMix/iEtF+v+p0OXmB+h0qJaSR/
-hMDYYhj6If5FdIGxeKdlpVnLOmF6HeAnonwoHfw6GzssDXGSV5q/
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2rZy4ACgkQpIiFFUIf/Ss6sAv+MhUg
+wPBDUbSm/UCHUk/FCfxm+wJTOJ+VU7cDQWYRJgsSs0s0d6MIoQ1MU+m1tUvsjD8ojUKlBmWIZsW5
+CwqlgPw3pk1dniUTwUerLThuI9n3dbylk1h+RJ1aquVL5dCkfh4uOwI+GECKMz5IPXzXz+y+0v/P
+bKao+FIO+K8wy9tD5ZB93AyqROyJwgGZOg44ii8MKTTmGU3xzXU9Obw09IHLYDAGK9vjHeu8qkA9
+CJeOcXNAa7CrnLDSyfvzkgOpuRHvXuylHy6xqSwZgLVdlHsCMgBfhX7XxInqIibgPTrj6fGB+Dx6
+EnboDZU+BOpr45KVExI/5QwtJdAVa6wxkGsGEcODw/cPZxKgI3hGDZh4hgu1qPqO+mMZkCdj7P0A
+Mq23lx3iyPU8l4z15OZEa8EHwP8rdbuplq8xnqZmNP5Eo9AxiRVX3J3/Pt+DeYCa2UC22aVSZcNq
+OnhjFl5EX9nnRswu1b9yzGDsTh4u2Ed/2b0pOBrfYov5Dn7jo++k
 
 -->
