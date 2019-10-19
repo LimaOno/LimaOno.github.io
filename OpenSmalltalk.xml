@@ -12,27 +12,29 @@
   <feed-for interface="https://limaono.github.io/OpenSmalltalk.xml"/>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-    <command name="run" path="squeak">
-    </command>
-
-    <!-- Add additional requirements here.
+    <command name="run" path="squeak"/>
+<!-- Add additional requirements here.
     <requires interface="..."/>
     -->
 
-    <implementation arch="Linux-x86_64" id="sha1new=b0cc5e2438d0946959be5eb8ab1c730642c8069e" released="2019-09-03" version="5.0-201901172323">
+    <implementation arch="Linux-x86_64" id="sha1new=b0cc5e2438d0946959be5eb8ab1c730642c8069e" released="2019-09-03" stability="stable" version="5.0-201901172323">
       <manifest-digest sha256new="EEZDKMQNID4DD522BXPH6G6XCKTQ5ZY7ZL2QFB4MHERKFRKK2TSA"/>
       <archive extract="sqcogspur64linuxht" href="https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/201901172323/squeak.cog.spur_linux64x64_201901172323.tar.gz" size="3984624"/>
+    </implementation>
+    <implementation arch="Linux-armv7l" id="sha1new=41c426ea926f9f0d272ff59ac2608e06be786459" released="2019-10-19" version="201901172323">
+      <manifest-digest sha256new="CIEUI4QPTUAOFKHVVNKWP45GGQQIW24CSNCI3USFQXHVXIMNAK7A"/>
+      <archive extract="sqcogspurlinuxhtRPi" href="https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/201901172323/squeak.cog.spur_linux32ARMv6_201901172323.tar.gz" size="3627142"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yxqgACgkQpIiFFUIf/SvRAgv/TyIR
-pJHB+m9xsvnehchdmIjc+vKDWlfjjuIuzmKTv9BXEx6d4ZvjstBMqXCjN1+KknC25/xYAlJ61rcV
-Io4RRTmbBBDSeHl8gTRC+55iWw5WabdqjWTatfWmKgxBc9VNXyJpEDaimLPAI4lPyE6DrK2k/vCb
-GunbesDdOIeeB7DHYOS+57+LxIkL6a6SKZCUtkd13ccNT38kLFlfJ38ARR6zG8HeyngMI+IZtT4I
-JG0Yp9Wj8jyJlDSp5wevK02dTjN+N5X0RDJ14tTFnYvuZ9329TWwMQvCDziKVVmkCUDz9iYx3E8o
-B3SI2DnPHUxLA0I1CdFcndZlxz6WXVjhU+dCuaU29MS71+Y3yNYxmojiTX9IvNGryXkGeD/LLoLg
-bCUs3novo25dctKTk3CYPok6XSOiwSfap9t6yCrA4C8/67SMKqZx+EbS70dKgD0XGuKeoJhrUURz
-1Csp6aoFnIpAHIO932xyJ5hfY5NmMSI7tl4y3knMr9lvfpz7uHMM
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2rQBYACgkQpIiFFUIf/Sv+YAv9FsMV
+mXvWzq1T4peJHia6ktRDvx4LvzFWl8BgLoG4bBL2Wbtd9K1PtO3cmC7p8+ZcLbCRICOjDESyWnGi
+KxIya3RzStwPpEGfPZ/SsRwKpiUljmuM4jNimXCVVIkJmWw5qKIRS7B4UD04OXQvrY8bK13mlOq3
+hd5fYEg8Cp36ajB26n1D1sYK4tFJSjgVeHw7c07BeakzSBveGK3OasrDcJUSB2tHwCvIFXVjPB4J
+bSLQ4+HkGItBvzkaxusRmvqAI8GovMGGZG3p8LPOrIQnDT3vnJbF2qgrMbwthFC9OptOhWnBagKC
+ipS0ACCB9uZ8qgZkehdtENCAScANUFlho8ymKCU65hE/yvYMiafOuli5+K76nkQhfALiXyeBUMnK
+Q1pbUKzK1g8kdQS6b2JPtqSQan8jvs/t4GHMPCICsIlWJEDbSnTx549PiieReb2h289Oc0EgK2mE
+dPsJBd1a0UB3sKjfjtN1nN69CEiCibELalbD4saIK/r/6szFL8zg
 
 -->
