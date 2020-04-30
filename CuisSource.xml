@@ -30,35 +30,38 @@ Cuis assumes very little on the underlying platform, and this lets it run out-of
 
   <feed-for interface="https://limaono.github.io/CuisSource.xml"/>
 
-  <group license="OSI Approved :: MIT/X Consortium License">
-<!--
+  <group license="OSI Approved :: MIT/X Consortium License"><!--
 	<command name="squeak" path="Cuis5.0.image">
       <runner interface="http://example.com/0install/opensmalltalk.xml">
       </runner>
     </command>
  -->
- 	<requires interface="https://limaono.github.io/OpenSmalltalk.xml">
- 		<environment insert="." name="PATH"/>
- 	</requires>
+    <requires interface="https://limaono.github.io/OpenSmalltalk.xml">
+      <environment insert="." name="PATH"/>
+    </requires>
 
     <implementation arch="*-*" id="sha1new=330b8cfa996ad1f8d38e413fe8031f00c22fb706" released="2019-09-05" version="5.0-3849">
-    	<manifest-digest sha256new="2NEFUXTOKDGAQ4OKBKHWKXB6HI76DPJP4QVP5GV3LIAPJO5M4AOQ"/>
-    	<archive extract="Cuis-Smalltalk-Dev-5.0-3849" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-3849.zip" size="60648659"/>
+      <manifest-digest sha256new="2NEFUXTOKDGAQ4OKBKHWKXB6HI76DPJP4QVP5GV3LIAPJO5M4AOQ"/>
+      <archive extract="Cuis-Smalltalk-Dev-5.0-3849" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-3849.zip" size="60648659"/>
     </implementation>
-    <implementation arch="*-*" id="sha1new=1131616c25f832b83415214e40497192d93bc935" released="2019-09-06" version="5.0-3866">
-    	<manifest-digest sha256new="IYW57NNBP46HX3PMQ6MIGLXKLF24P62QLSKBDGONH4RZ6KNSBEQQ"/>
-    	<archive extract="Cuis-Smalltalk-Dev-5.0-3866" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-3866.zip" size="60797825"/>
+    <implementation arch="*-*" id="sha1new=1131616c25f832b83415214e40497192d93bc935" released="2019-09-06" stability="stable" version="5.0-3866">
+      <manifest-digest sha256new="IYW57NNBP46HX3PMQ6MIGLXKLF24P62QLSKBDGONH4RZ6KNSBEQQ"/>
+      <archive extract="Cuis-Smalltalk-Dev-5.0-3866" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-3866.zip" size="60797825"/>
+    </implementation>
+    <implementation arch="*-*" id="sha1new=a9cf6deebd9ecbf2e0fb241804e327945a65a9fa" released="2020-04-30" version="5.0-4112">
+      <manifest-digest sha256new="QCAGDYCG26V7FDDGVWBIB2JRWFFWIQJPY5BAFDOJEEAYAPOE53UA"/>
+      <archive extract="Cuis-Smalltalk-Dev-5.0-4112" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-4112.zip" size="80059065"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl1yxqcACgkQpIiFFUIf/SvbWAv/ZbdE
-HnPZONfE5zIGdUJ07TbacxcsDbOyjvNu+UoA8yM8+hYU5fJYHogMjV1Zje1SReDYMfvqhr6PATdo
-1sDTaqES3hBYuhFNA8iyRvoudK9Ew8KILmNR6X8CqxhdEHXx9SEaJOEhdTiaPSse9oyX04uZSkUq
-QUvM5LafNNMbaNIJZgrOTk5/2cAhxYm6Uyd0eB2ard69ndzj4KY47sIKV04g+qVzQOMoe0250+1E
-/JLf/94z9+Sq/yJ5R8pj/p53QVg1EElJPli1lMuFsS+yk5VWQUwhS+zFsSgdeb5BU1jjkA8bww9T
-4ejN9wJTCWAnQNJLKxN9flJIW2hQGd7iZ6OGOECCDj/Dn78OTjGl72mZaUaVCCjVWwJYA44obgx0
-odlYx2e4WudutAdk2we6Uv4eEtKdEJWMb8JjKSBt5yMjhumP0FX8Wx5IAykEgBRfSa6yrwZu7+qG
-o2vjJJ5zoNYpOYcwNTjaEuYQZe0u4qdk3SzSGaqUse83ksmgTmwi
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl6q7tEACgkQpIiFFUIf/SutvAv/TXB5
+EGZpu7Vi5VeGfcDZmqK1EoLEThODKv3+sq4EZLc4XJJ8q8hp7vrVXqJV0NKkk65GUMwWykIp3QHG
+r4aS3pmeebvJJcLQzvXAwzoc9HipkHCPtHdy+OuzL2M9P1pNIUeFVWhWHx5XYOQvHRjWdrcgFH9Z
+vnj0eQMGHHly/qDKI1PG9cAEPJPVLm9msZMY5zH74S11feSSNCwYkJ60E1bj8P0oIZI8mlLswtxi
+bt+Zhg2xbHG+R6/of98Zb0x69jnlteFtUdxAQ8LDgh6foK8qN0eQp5JJESOUPk4szRnvK4R2uKAc
+PR9NZVdtKOVQQAMWEzvb81ej1pqxzsOvFWNP04R4vWS+rAMR/NYabpqu7HQeqXOb+mLsixTfOWYk
+iKPbfvVIKlpKTn8XlYEJ97oEewVXkk69uFWXIL7dT4kGhlqdD7GFea/uVL6v1u6P182SVbY45Cig
+Fq8bBROyOl+PzvKcEwfE3d8hBkQ3aHiAtAxhI8irbKPptOS6qAlV
 
 -->
