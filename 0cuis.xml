@@ -20,7 +20,7 @@
       <environment insert="." mode="append" name="PATH"/>
     </requires>
     <requires interface="https://limaono.github.io/CuisSource.xml">
-      <environment mode="replace" name="CUISPATH" value="."/>
+      <environment insert="." mode="replace" name="CUISPATH"/>
     </requires>
 
     <implementation arch="*-*" id="sha1new=278849c8247f4890929229f18460285556cd54cc" released="2019-09-06" version="0.1-pre1">
@@ -62,13 +62,13 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl6u3fIACgkQpIiFFUIf/SvUgQv8CFra
-EELuxDolhKs9jhrKnK1mOQM2F4HQPfNna3Uro12pyJUIjjMjTgIXffep5FS4tIMdw+vRquVCXxnN
-vIS7hYpSEi4YBqBmllPSo7Qbpmkvt82NJAeNftyS5sBJiWZdtCFYCmgfLHMEeVC3ljmW5bA3KONI
-WuN4L85dO5m8pqHcNU6mjkq3Ocv1TXgPZKw2bQoAXfKVgTE3zJiX8ZwWYhFjJvz6g0Wc/O1qL0KJ
-TJ+Kvu9SxXJy3N2D34geWOUB2aiZxIuM9pnQsTaOfFcW7fyG4dLaiyKcJdC+65VCQhWkVtcemxv+
-NJ6mhjwIpUxMXB+Zv3bBP4jEPojYzvGYEKtDD1d8VlZSCY1XEArJea3nj0mgk9v/O4O3PhY7+HlH
-r3cqOKWUQTYJ3ll+UyiBVi7e0+M1ItzcWZ/xryqGVeuAjy6B/AtcR1Wgnb2KlUhf0fmaqJyaNGCb
-WERkD6P9iCEEj8NI7eUZR9NkaqM5hAmVWcWgpX9rwfCSgH3mMY9F
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl6u5KwACgkQpIiFFUIf/Svxmwv+J0uP
+f+ELZyK7F2ZKpQCO3qDBzfBeqDTUUyfCwprSD9Psd/7t5moRTbrdyxX0fHyiHTgwN1XdBzUpDSNK
+Rb4uq9XDuC3ro9n5oK9dbwt3WSA8Npt0nDGtS+cjODH+3CqRmul4cPz9zA15f4Fhv8myrEcmGd6w
+Zsh7yUAaI727kJUQ+IWPkeJT/StN/dWl1yyQ1I5IMcvKhOqQ2E7XWbsHEgH4iLgQszvhqW1cWxHF
+x01hX8i+9cr3o840FMvDhlYlyiAYU7ql20cCWulxfKAM8SrCvAOWUYA04kBEx822tgYjoXPYK8Jc
+RdFtzuscpY2sHxNyLPQ7E32YXcevLr4joSNt/09n8L6+7Or8joEjfCGMXJkLKrTs9Yw0m4h/qWia
+6a3yFGY3YLGw0LhA9PAERxgsbSVq2aRwM8GBS1zd0kUG5rCVkoPYSm+oFc4r8I/SEYIIDbjh6o+z
+MjvrfHToALipSEAxQ/JmHU1RhqLLw0BiBzlKQyniUNhp1ej59mrj
 
 -->
