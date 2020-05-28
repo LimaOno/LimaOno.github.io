@@ -40,20 +40,20 @@ Squeak, Pharo and Newspeak.
       <manifest-digest sha256new="QCAGDYCG26V7FDDGVWBIB2JRWFFWIQJPY5BAFDOJEEAYAPOE53UA"/>
       <archive extract="Cuis-Smalltalk-Dev-5.0-4112" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-4112.zip" size="80059065"/>
     </implementation>
-    <implementation arch="*-*" id="sha1new=5b0b20e6059be17d2ece0286daf87c2f97bb788a" released="2020-05-28" version="5.0-4191">
+    <implementation arch="*-*" id="sha1new=5b0b20e6059be17d2ece0286daf87c2f97bb788a" released="2020-05-28" stability="stable" version="5.0-4191">
       <manifest-digest sha256new="EI2HGZCTGZJJFQVDR6F6ZWO7VABH6WWXUQ6QQJ7BI7VWF5HJNNEA"/>
       <archive extract="Cuis-Smalltalk-Dev-5.0-4191" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-4191.zip" size="80233944"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl7PyOwACgkQpIiFFUIf/SsX3Av/eFCc
-ST8OX9651iHHcJk3dMN4zeApubh0Aexlphyj09QKxp4jAIhCqaKcQESOYTAx0xYnkBkNpmVsmihl
-LOf+PcnqjVnoT88Pe0nksbkmn4T1irOAnqUoT5tUI7g8Dt54GOHyIHLoSrTPamsSoQ3jXPoOp06s
-9QeZXSr0lm0ewiVreXfbNeHGOY9/L3FMDIIzi8uv3rQoMSMyUBlrNXm+0YRMzimVvvrofkwCJb4e
-rekxf56qVjFB5+Zbqe1Ombs4bxbO+2Ho6Zv5p7/9/eQFlB6xUy2LrJl3DTvxwgn1Pg3xnJ/JJlQs
-ITji7xEmZe77Xg2+Tg9epVMz1JCUhMRO3J8O5CxJdHbl48tiH0fRJiz8wE5ZozMPw0npl6cS4heO
-Zitu5CetIVYfhJ9xdKEOK+5hmleY4qNYuK1bfKD0r7L05KpXHU4hT79yV6y5wiv0mJwjBQM/dzMo
-FjNimzIyDArSSiJ/2t/AHPlE9xChEPtiNzEac3bUx6LGqgfjjdj6
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl7P0OIACgkQpIiFFUIf/StXhAwApbNU
+2/QWH1FvQwLJ+Fn5/r1fvtYKZSf5619ZjhVbGi8q1lOqTBCKndLqziymw97TJN421Hos3z8o3Csz
+AWSuOZSh00TC22zg/FRF6mVqdMwJscH4aUi+RGKgiZKsrQgmMo+4I0yOHPJN3WkI2V+PBTUDTCC3
+6uBSlP3WAV+gOeQgEHHxQrNrUCyl/OdLJX+fWvpQbJGZII8+lZIzu6gzdVF1K8cmju+EakV0FfBK
+4VbDvnks7QY1bsSnzuqSkv2PnV24kgMJndnvEWikYS/28h3PUatw21Q1ZhsMcbsjHIBQEc/oV+q0
+n+o3N4XYWyvkLKAdRv5/5j3xECwB6kkC9lfSLoejzc11Ld9+ALFp1n+DtXnDkTP7Gu/4upWkf5mD
+FpH20wlIpMbjWdTaptL99nf6Do9hqd8v8wV1gu2UoMoWa9QZsU6Ni0dPr6b/ginBT2MEmy8XwFzl
+mqOIwRhY+ET/f+yKXiFvFcRHiV1d88TVYoONKWaJVv/OMMWlSfGO
 
 -->
