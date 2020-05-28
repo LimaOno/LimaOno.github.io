@@ -4,25 +4,21 @@
   I know how to start a Cuis image, and to prepare it if necessary if I am given
   access to a copy of the Cuis Smalltalk distribution
   </description><homepage>https://github.com/LimaOno/CuisCommand</homepage></interface><interface uri="https://limaono.github.io/CuisSource.xml"><name>CuisSource</name><summary>The Cuis Smalltalk implementation</summary><description>
-Cuis is an Open Source, multiplatform Smalltalk-80 system.
-
-Cuis is
-
-Small
-Clean
-Appropriable
-
+Cuis is an Open Source, multiplatform Smalltalk-80 system. Cuis is:
+<ul>
+	<li>Small</li>
+	<li>Clean</li>
+	<li>Appropriable</li>
+</ul> 
 Additionally, Cuis is:
+<ul>
+	<li>Open Source</li>
+	<li>Multiplatform</li>
+</ul>
+Like other Smalltalk systems, Cuis is also: a complete development environment
+written in itself, a pure, dynamic Object Oriented language. 
 
-Open Source
-Multiplatform
-
-Like other Smalltalk systems, Cuis is also:
-
-A complete development environment written in itself
-A pure, dynamic Object Oriented language
-
-Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.
+<p>Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.</p>
 </description><homepage>https://cuis-smalltalk.org/</homepage></interface><interface uri="https://limaono.github.io/MorphicMisc.xml"><name>MorphicMisc</name><summary>Additional Morphic packages</summary><description>
   A collection of packages with additional Morphs and extensions to Morphic.
   
@@ -54,13 +50,13 @@ Cuis assumes very little on the underlying platform, and this lets it run out-of
   The OpenSmalltalk Squeak and Cuis virtual machine, with JIT
   </description><homepage>http://opensmalltalk.org/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl2gwYYACgkQpIiFFUIf/SubXAwAruWX
-Lk4w6ELAmrC0D8BKgGSTgVpl3JvyjN+Rv55+L8+pqyh/TmLlLHwInkjkkSmO/0HGbuoKJT06NZng
-qP62FhiO1cyhmr1ze6WZWcQ6BeCaHgDsaY7Dllu+QNWGwx3JbjWQJjHPUwDp4PMrTGGXU9IAPZwd
-RMwasZnAXZdd4QeWVhoCOXY49X23szHa65xT141Z/LOg9jeNI1nAZla6hjDRCcZB/He7Kuapbucs
-9yJHyotoI0UPSLcrZYjHgjnbp0duvKVEZTA/Y0fRFm7AxsGtdXRjTMYtfW/1ewENtpJ7zyyt1HJV
-l1ZFgX64BdsDo1dBuNruDWmm7WGs7z3VsmpfHsZ76Mj1cVXBkJBTwFy+DbPWWhKf4LxXsJdvMLHx
-cn8vCnz6/2nl92OpJ9rE+bSWL30wx0an6jPQKiMd3SZkQWddTfOeMnzGlAWR3z5kDoLSV8mUJvb7
-zcffGdbSGRb9XfftpKqtiX3LEJcJAu2O2RPCuM/N81CnEe5kq0hN
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl7Pw5QACgkQpIiFFUIf/StcHQv9FN1j
+Wg13m3NnK7TcYQf18LAfTwN6VQxt8UpF0zHpp4LuN89rBZttRpUFa6AAMa2AC5In2GQuMng+y/tt
+A9hTWDVF1GIODgzzLliuSoII0rrQ8IhOU8wzInGtwbGxHD9LYRNg4maXaPEJZIXuv9o6f/P9p81R
+hi8kjLtDcTZ6Y4IHpc7WFSMsTHQC7bOlIztysmZUezEdBCdgjEoxCpVeb2TJ5jJImvyDupAHCsv/
+s/mrMFCNfrU36mrCUbUkC8SD7ljMe4BYQlhtvDLy6EF75K03bNjuYCUeus6tsSPFLmHAXa9iiweX
+rEYz8hd7c2iL/acb+bkb3bA49rUqic+l/0jVkFPP1P2dlLQQoaNFDekYvxPWd0Q+UkEdaU7HfafV
+m07VeyCn2cq1/IVqM8QRFLKfOUSmL/kmxKEbMaW6kpGSsIvkhI4p0RoS1v0ZVzjzlp085vIbOqTG
+qI4mSCHUNglm0nIjXEqHOiIMD15MQjX5c8gk3PXdZCS6EXaWPoFP
 
 -->

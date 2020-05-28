@@ -5,25 +5,21 @@
   <summary>The Cuis Smalltalk implementation</summary>
 
   <description>
-Cuis is an Open Source, multiplatform Smalltalk-80 system.
-
-Cuis is
-
-Small
-Clean
-Appropriable
-
+Cuis is an Open Source, multiplatform Smalltalk-80 system. Cuis is:
+<ul>
+	<li>Small</li>
+	<li>Clean</li>
+	<li>Appropriable</li>
+</ul> 
 Additionally, Cuis is:
+<ul>
+	<li>Open Source</li>
+	<li>Multiplatform</li>
+</ul>
+Like other Smalltalk systems, Cuis is also: a complete development environment
+written in itself, a pure, dynamic Object Oriented language. 
 
-Open Source
-Multiplatform
-
-Like other Smalltalk systems, Cuis is also:
-
-A complete development environment written in itself
-A pure, dynamic Object Oriented language
-
-Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.
+<p>Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.</p>
 </description>
 
   <homepage>https://cuis-smalltalk.org/</homepage>
@@ -52,16 +48,20 @@ Cuis assumes very little on the underlying platform, and this lets it run out-of
       <manifest-digest sha256new="QCAGDYCG26V7FDDGVWBIB2JRWFFWIQJPY5BAFDOJEEAYAPOE53UA"/>
       <archive extract="Cuis-Smalltalk-Dev-5.0-4112" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-4112.zip" size="80059065"/>
     </implementation>
+    <implementation arch="*-*" id="sha1new=5b0b20e6059be17d2ece0286daf87c2f97bb788a" released="2020-05-28" version="5.0-4191">
+      <manifest-digest sha256new="EI2HGZCTGZJJFQVDR6F6ZWO7VABH6WWXUQ6QQJ7BI7VWF5HJNNEA"/>
+      <archive extract="Cuis-Smalltalk-Dev-5.0-4191" href="https://github.com/LimaOno/Cuis-Smalltalk-Dev/archive/v5.0-4191.zip" size="80233944"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl6q7tEACgkQpIiFFUIf/SutvAv/TXB5
-EGZpu7Vi5VeGfcDZmqK1EoLEThODKv3+sq4EZLc4XJJ8q8hp7vrVXqJV0NKkk65GUMwWykIp3QHG
-r4aS3pmeebvJJcLQzvXAwzoc9HipkHCPtHdy+OuzL2M9P1pNIUeFVWhWHx5XYOQvHRjWdrcgFH9Z
-vnj0eQMGHHly/qDKI1PG9cAEPJPVLm9msZMY5zH74S11feSSNCwYkJ60E1bj8P0oIZI8mlLswtxi
-bt+Zhg2xbHG+R6/of98Zb0x69jnlteFtUdxAQ8LDgh6foK8qN0eQp5JJESOUPk4szRnvK4R2uKAc
-PR9NZVdtKOVQQAMWEzvb81ej1pqxzsOvFWNP04R4vWS+rAMR/NYabpqu7HQeqXOb+mLsixTfOWYk
-iKPbfvVIKlpKTn8XlYEJ97oEewVXkk69uFWXIL7dT4kGhlqdD7GFea/uVL6v1u6P182SVbY45Cig
-Fq8bBROyOl+PzvKcEwfE3d8hBkQ3aHiAtAxhI8irbKPptOS6qAlV
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl7Pw4kACgkQpIiFFUIf/Sua8AwAlico
+HVWCCinR66/g/tet3dG6NWke1Q2O5wq6PZ9BOVL6lHltrP7KVjokb4btHHd3fBE3PiTTNC5cB3Yj
+Xqv/iXuykiw2XCekshuiVXLWFvIll4RDVyw3Zl5cc/3m3XZF+RHodSHcOqLQTHe4esFFBOPN4kAF
+9zSgPrGk5aGXWuV0/4za4OXtEuemo7xPbNc+cOyXOqPEhCmIxBBh00ZsR7KjjLPRHTtDN8BG47tH
+TjC3L+6CM+FNESI1wwwtE2rMEXBsL2H3WLQ/Wdap6VRObBLZQLU6gYAEEJXnglXwYfcgK2TpRfFO
+J5VaGfQVpXR+gVqQqUxXNaK9jHFo0qF1/eSrtr4HiBkuiFr5jtcILM/2EyUw+NPxVBV+ehOFp5eD
+BECq8D0IVoTEC2+JEwnuNo9B/27gjY6rTWzEQeiUUsFKh5EewQNZcpW1OauFTFvwB0+KxGS17oV+
+86uml+McI5Ox0ApoXc3MTf7S/6Pwn+Z4jwmnE75RmoqAE/P5gQSA
 
 -->
