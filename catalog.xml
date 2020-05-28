@@ -4,21 +4,13 @@
   I know how to start a Cuis image, and to prepare it if necessary if I am given
   access to a copy of the Cuis Smalltalk distribution
   </description><homepage>https://github.com/LimaOno/CuisCommand</homepage></interface><interface uri="https://limaono.github.io/CuisSource.xml"><name>CuisSource</name><summary>The Cuis Smalltalk implementation</summary><description>
-Cuis is an Open Source, multiplatform Smalltalk-80 system. Cuis is:
-<ul>
-	<li>Small</li>
-	<li>Clean</li>
-	<li>Appropriable</li>
-</ul> 
-Additionally, Cuis is:
-<ul>
-	<li>Open Source</li>
-	<li>Multiplatform</li>
-</ul>
-Like other Smalltalk systems, Cuis is also: a complete development environment
-written in itself, a pure, dynamic Object Oriented language. 
-
-<p>Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.</p>
+Cuis is an Open Source, multiplatform Smalltalk-80 system. Cuis is: Small,
+Clean, Appropriable. Additionally, Cuis is Open Source, Multiplatform.
+Like other Smalltalk systems, Cuis is also a complete development environment
+written in itself, a pure, dynamic Object Oriented language. Cuis assumes very little on the
+underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux,
+ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with
+Squeak, Pharo and Newspeak.
 </description><homepage>https://cuis-smalltalk.org/</homepage></interface><interface uri="https://limaono.github.io/MorphicMisc.xml"><name>MorphicMisc</name><summary>Additional Morphic packages</summary><description>
   A collection of packages with additional Morphs and extensions to Morphic.
   
@@ -50,13 +42,13 @@ written in itself, a pure, dynamic Object Oriented language.
   The OpenSmalltalk Squeak and Cuis virtual machine, with JIT
   </description><homepage>http://opensmalltalk.org/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl7Pw5QACgkQpIiFFUIf/StcHQv9FN1j
-Wg13m3NnK7TcYQf18LAfTwN6VQxt8UpF0zHpp4LuN89rBZttRpUFa6AAMa2AC5In2GQuMng+y/tt
-A9hTWDVF1GIODgzzLliuSoII0rrQ8IhOU8wzInGtwbGxHD9LYRNg4maXaPEJZIXuv9o6f/P9p81R
-hi8kjLtDcTZ6Y4IHpc7WFSMsTHQC7bOlIztysmZUezEdBCdgjEoxCpVeb2TJ5jJImvyDupAHCsv/
-s/mrMFCNfrU36mrCUbUkC8SD7ljMe4BYQlhtvDLy6EF75K03bNjuYCUeus6tsSPFLmHAXa9iiweX
-rEYz8hd7c2iL/acb+bkb3bA49rUqic+l/0jVkFPP1P2dlLQQoaNFDekYvxPWd0Q+UkEdaU7HfafV
-m07VeyCn2cq1/IVqM8QRFLKfOUSmL/kmxKEbMaW6kpGSsIvkhI4p0RoS1v0ZVzjzlp085vIbOqTG
-qI4mSCHUNglm0nIjXEqHOiIMD15MQjX5c8gk3PXdZCS6EXaWPoFP
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl7PyPsACgkQpIiFFUIf/St8fQv/cyWY
+k+MUm6UZopiMPUkQOhPKo1+086HuYD6Rt+x03najmhzYmz9YOUUdJQ+9e+X2HSDWaqX8VY+7cgNZ
+kKEmReqj0fBNy+pwkMso+O9eS2Z2IuWktA4ZxegeqXygkpG4qnK0GeJH/IVuwsGc0d/cPRsknQ/O
+cnvms/8AoOB5TO1xQZY+SD4pGRb9++cLUXye7jtwZ9enxUl3AtIo5+pgDfFgYdlOFGeRTr+yZCDq
+H+njbpRMdLxZ7vK/2KX1ZF8OSMHPeeAvkehakZITXz29E4si2PN7UpiyvB/Kiham1AtLyafzwfja
+BeXYi/GrR37GvmuDlP+N+/JOu7zTg6D1zI/40iIEeXpG8c8JmPcf1yjrhyuea5D9zydqrBqLhVX8
+1L7z3HxruBuPvvBuGyAmLnD8Yeql/5to805tMbIEimgxhYVfK8+qWoGH0pXYoeAwsIdmylIC9W4l
+oJvuDOo3DbqGOs1q8zUpVQWdAeQ5GLXCsCkKQOA5EjEHM5rCfZxV
 
 -->

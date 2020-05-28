@@ -5,21 +5,13 @@
   <summary>The Cuis Smalltalk implementation</summary>
 
   <description>
-Cuis is an Open Source, multiplatform Smalltalk-80 system. Cuis is:
-<ul>
-	<li>Small</li>
-	<li>Clean</li>
-	<li>Appropriable</li>
-</ul> 
-Additionally, Cuis is:
-<ul>
-	<li>Open Source</li>
-	<li>Multiplatform</li>
-</ul>
-Like other Smalltalk systems, Cuis is also: a complete development environment
-written in itself, a pure, dynamic Object Oriented language. 
-
-<p>Cuis assumes very little on the underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux, ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with Squeak, Pharo and Newspeak.</p>
+Cuis is an Open Source, multiplatform Smalltalk-80 system. Cuis is: Small,
+Clean, Appropriable. Additionally, Cuis is Open Source, Multiplatform.
+Like other Smalltalk systems, Cuis is also a complete development environment
+written in itself, a pure, dynamic Object Oriented language. Cuis assumes very little on the
+underlying platform, and this lets it run out-of-the-box on Windows, MacOS, Linux,
+ChromeOS and WebBrowsers. Cuis shares the OpenSmalltalk Virtual Machine with
+Squeak, Pharo and Newspeak.
 </description>
 
   <homepage>https://cuis-smalltalk.org/</homepage>
@@ -55,13 +47,13 @@ written in itself, a pure, dynamic Object Oriented language.
   </group>
 </interface>
 <!-- Base64 Signature
-iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl7Pw4kACgkQpIiFFUIf/Sua8AwAlico
-HVWCCinR66/g/tet3dG6NWke1Q2O5wq6PZ9BOVL6lHltrP7KVjokb4btHHd3fBE3PiTTNC5cB3Yj
-Xqv/iXuykiw2XCekshuiVXLWFvIll4RDVyw3Zl5cc/3m3XZF+RHodSHcOqLQTHe4esFFBOPN4kAF
-9zSgPrGk5aGXWuV0/4za4OXtEuemo7xPbNc+cOyXOqPEhCmIxBBh00ZsR7KjjLPRHTtDN8BG47tH
-TjC3L+6CM+FNESI1wwwtE2rMEXBsL2H3WLQ/Wdap6VRObBLZQLU6gYAEEJXnglXwYfcgK2TpRfFO
-J5VaGfQVpXR+gVqQqUxXNaK9jHFo0qF1/eSrtr4HiBkuiFr5jtcILM/2EyUw+NPxVBV+ehOFp5eD
-BECq8D0IVoTEC2+JEwnuNo9B/27gjY6rTWzEQeiUUsFKh5EewQNZcpW1OauFTFvwB0+KxGS17oV+
-86uml+McI5Ox0ApoXc3MTf7S/6Pwn+Z4jwmnE75RmoqAE/P5gQSA
+iQGzBAABCgAdFiEE1Uk3z2rrYnDRQ7LRpIiFFUIf/SsFAl7PyOwACgkQpIiFFUIf/SsX3Av/eFCc
+ST8OX9651iHHcJk3dMN4zeApubh0Aexlphyj09QKxp4jAIhCqaKcQESOYTAx0xYnkBkNpmVsmihl
+LOf+PcnqjVnoT88Pe0nksbkmn4T1irOAnqUoT5tUI7g8Dt54GOHyIHLoSrTPamsSoQ3jXPoOp06s
+9QeZXSr0lm0ewiVreXfbNeHGOY9/L3FMDIIzi8uv3rQoMSMyUBlrNXm+0YRMzimVvvrofkwCJb4e
+rekxf56qVjFB5+Zbqe1Ombs4bxbO+2Ho6Zv5p7/9/eQFlB6xUy2LrJl3DTvxwgn1Pg3xnJ/JJlQs
+ITji7xEmZe77Xg2+Tg9epVMz1JCUhMRO3J8O5CxJdHbl48tiH0fRJiz8wE5ZozMPw0npl6cS4heO
+Zitu5CetIVYfhJ9xdKEOK+5hmleY4qNYuK1bfKD0r7L05KpXHU4hT79yV6y5wiv0mJwjBQM/dzMo
+FjNimzIyDArSSiJ/2t/AHPlE9xChEPtiNzEac3bUx6LGqgfjjdj6
 
 -->
